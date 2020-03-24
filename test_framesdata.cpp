@@ -43,9 +43,9 @@ BOOST_AUTO_TEST_SUITE(fps_framesdata_test_suite)
             BOOST_CHECK(res.size() == 2u);
             for (const auto& r : res) {
                 if (r.capture_name == "centerImage") {
-                    BOOST_REQUIRE_CLOSE(r.fps, 2.51166128453534, 1e-6);
+                    BOOST_REQUIRE_CLOSE(r.fps, 2.15285252960172, 1e-6);
                 } else if (r.capture_name == "leftImage") {
-                    BOOST_REQUIRE_CLOSE(r.fps, 0.86792998698105, 1e-6);
+                    BOOST_REQUIRE_CLOSE(r.fps, 0.723274989150875, 1e-6);
                 } else {
                     BOOST_CHECK(false);
                 }

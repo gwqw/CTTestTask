@@ -18,7 +18,7 @@ boost::optional<std::tuple<std::string, int, int, std::string>>
             ("help,h", "This screen")
             ("dir,d", opt::value<std::string>(), "Input directory with *.info.yaml.gz files")
             ("start,s", opt::value<int>(), "episode number to start counting fps. Empty means from the first in directory")
-            ("end,e", opt::value<int>(), "episode number to stop counting fps. Empty means to the first in directory")
+            ("end,e", opt::value<int>(), "episode number to stop counting fps. Empty means to the last in directory")
             (",o", opt::value<std::string>(), "output filename (csv-table)");
 
     opt::command_line_parser parser{argc, argv};
