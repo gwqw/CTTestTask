@@ -90,8 +90,8 @@ bool isCorrectFileName(const std::string& filename, int start_ep, int end_ep) {
     try {
         int ep_num = stoi(words[2]);
         bool res = true;
-        res = res && start_ep >= 0 && ep_num >= start_ep;
-        res = res && end_ep >= 0 && ep_num <= end_ep;
+        res = res && (start_ep < 0 || (start_ep >= 0 && ep_num >= start_ep));
+        res = res && (end_ep < 0 || (end_ep >= 0 && ep_num <= end_ep));
         return res;
     } catch (const exception& e) {
         return false;
@@ -102,9 +102,11 @@ std::vector<std::string> getFileList(const std::string& input_path, int start_ep
     fs::path parent_path(input_path);
     std::vector<std::string> res;
     for (const auto& p : fs::directory_iterator(parent_path)) {
-        auto filename = p.path().string();
+        auto filename = p.path().filename().string();
+        auto filepath = p.path().string();
         if (isCorrectFileName(filename, start_ep, end_ep))
-        res.push_back(move(filename));
+        res.push_back(move(filepath));
     }
+    sort(res.begin(), res.end());
     return res;
 }

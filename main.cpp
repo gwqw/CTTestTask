@@ -19,6 +19,7 @@ int main(int argc, char* argv[]) {
         auto [inputDir, startEpisodeNumber, endEpisodeNumber, ouputFname] =
             *optional_options;
         auto file_list = getFileList(inputDir, startEpisodeNumber, endEpisodeNumber);
+
         Episode episode;
         for (const auto& filename : file_list) {
             Decompressor decompressor(filename);

@@ -1,0 +1,52 @@
+---
+header: { captures: { capture1: {
+    name: centerImage}, capture2: { name: leftImage} } }
+shots:
+   -
+      grabNumber: 1
+      grabMsec: 17964
+      centerImage: { grabNumber: 31, grabMsec: 17797, deviceSec: 1573647312,
+          deviceUsec: 789505 }
+      leftImage: { grabNumber: 31, grabMsec: 17769, deviceSec: 1573647312,
+          deviceUsec: 747351 }
+   -
+      grabNumber: 2
+      grabMsec: 18965
+      centerImage: { grabNumber: 31, grabMsec: 17897, deviceSec: 1573647312,
+          deviceUsec: 789505 }
+      leftImage: { grabNumber: 31, grabMsec: 17869, deviceSec: 1573647312,
+          deviceUsec: 747351 }
+   -
+      grabNumber: 3
+      grabMsec: 19964
+      centerImage: { grabNumber: 31, grabMsec: 17986, deviceSec: 1573647312,
+          deviceUsec: 789505 }
+      leftImage: { grabNumber: 31, grabMsec: 18169, deviceSec: 1573647312,
+          deviceUsec: 747351 }
+   -
+      grabNumber: 4
+      grabMsec: 20964
+      centerImage: { grabNumber: 31, grabMsec: 18185, deviceSec: 1573647312,
+          deviceUsec: 789505 }
+   -
+      grabNumber: 5
+      grabMsec: 21964
+      centerImage: { grabNumber: 31, grabMsec: 19185, deviceSec: 1573647312,
+          deviceUsec: 789505 }
+      leftImage: { grabNumber: 31, grabMsec: 20172, deviceSec: 1573647312,
+          deviceUsec: 747351 }
+   -
+      grabNumber: 6
+      grabMsec: 22964
+      centerImage: { grabNumber: 31, grabMsec: 19585, deviceSec: 1573647312,
+          deviceUsec: 789505 }
+      leftImage: { grabNumber: 31, grabMsec: 23172, deviceSec: 1573647312,
+          deviceUsec: 747351 }
+   -
+      grabNumber: 7
+      grabMsec: 23964
+      centerImage: { grabNumber: 31, grabMsec: 20584, deviceSec: 1573647312,
+          deviceUsec: 789505 }
+      leftImage: { grabNumber: 31, grabMsec: 24682, deviceSec: 1573647312,
+          deviceUsec: 747351 }
+

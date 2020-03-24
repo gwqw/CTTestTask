@@ -18,8 +18,8 @@ boost::optional<std::tuple<std::string, int, int, std::string>>
             ("help,h", "This screen")
             ("dir,d", opt::value<std::string>(), "Input directory with *.info.yaml.gz files")
             ("start,s", opt::value<int>(), "episode number to start counting fps. Empty means from the first in directory")
-            ("end,e", opt::value<std::string>(), "episode number to stop counting fps. Empty means to the first in directory")
-            ("o", opt::value<std::string>(), "output filename (csv-table)");
+            ("end,e", opt::value<int>(), "episode number to stop counting fps. Empty means to the first in directory")
+            (",o", opt::value<std::string>(), "output filename (csv-table)");
 
     opt::command_line_parser parser{argc, argv};
     parser.options(desc).allow_unregistered();
@@ -42,8 +42,8 @@ boost::optional<std::tuple<std::string, int, int, std::string>>
     if (vm.count("end")) {
         finish = vm["end"].as<int>();
     }
-    if (vm.count("o")) {
-        output_filename = vm["o"].as<string>();
+    if (vm.count("-o")) {
+        output_filename = vm["-o"].as<string>();
     }
     return make_tuple(move(inputDir), start, finish, move(output_filename));
 }

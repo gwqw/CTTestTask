@@ -1,0 +1,3627 @@
+%YAML:1.0
+---
+header: { appRevision:"17907",
+    firstShotDate:"2019-11-13T15:14:54.873+03:00", captures:{ capture1:{
+    name:centerImage, type:CamCapture, readFrom:skip,
+    deviceId:"Blackfly BFLY-PGE-23S6C:18369253", extDataFileNames:[
+    center ] }, capture2:{ name:leftImage, type:CamCapture,
+    readFrom:skip, deviceId:"Blackfly BFLY-PGE-23S6C:19117119",
+    extDataFileNames:[ left ] }, capture3:{ name:nearImage,
+    type:CamCapture, readFrom:skip,
+    deviceId:"Blackfly BFLY-PGE-23S6C:18369252", extDataFileNames:[ near ] },
+    capture4:{ name:dbwFbLoco, type:DBWFeedBackCapture, readFrom:skip,
+    deviceId:not supported }, capture5:{ name:eleftImage, type:CamCapture,
+    readFrom:skip, deviceId:error, extDataFileNames:[ eleft ] },
+    capture6:{ name:emlidLeft, type:GnssCapture, readFrom:skip,
+    deviceId:not supported } } }
+shots:
+   -
+      grabNumber: 2968
+      grabMsec: 17964
+      centerImage: { grabNumber:31, grabMsec:17797, deviceSec:1573647312,
+          deviceUsec:789505 }
+      leftImage: { grabNumber:31, grabMsec:17769, deviceSec:1573647312,
+          deviceUsec:747351 }
+      nearImage: { grabNumber:29, grabMsec:17773, deviceSec:1573647312,
+          deviceUsec:758193 }
+      dbwFbLoco: { grabNumber:65, grabMsec:17941, deviceSec:0,
+          deviceUsec:11881931, vehicleCanData:{ shootNumber:81,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11881931, m_speed:5.3500000000000000e+01,
+          m_path:28423, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+      eleftImage: { grabNumber:40, grabMsec:17893, deviceSec:1573647312,
+          deviceUsec:747351 }
+   -
+      grabNumber: 2978
+      grabMsec: 17975
+      eleftImage: { grabNumber:41, grabMsec:17966, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3003
+      grabMsec: 18001
+      leftImage: { grabNumber:32, grabMsec:17893, deviceSec:1573647312,
+          deviceUsec:856998 }
+   -
+      grabNumber: 3007
+      grabMsec: 18006
+      emlidLeft: { grabNumber:49, grabMsec:18003, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405571035000001e+01,
+          east:4.1233654006666669e+01, alt:1.4569700000000000e+02,
+          speed:1.5068077777777777e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6076692252650298e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:12.080+03:00" } }
+   -
+      grabNumber: 3017
+      grabMsec: 18016
+      nearImage: { grabNumber:30, grabMsec:17896, deviceSec:1573647312,
+          deviceUsec:873561 }
+   -
+      grabNumber: 3024
+      grabMsec: 18024
+      centerImage: { grabNumber:32, grabMsec:17943, deviceSec:1573647312,
+          deviceUsec:885595 }
+   -
+      grabNumber: 3048
+      grabMsec: 18049
+      eleftImage: { grabNumber:42, grabMsec:18044, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3066
+      grabMsec: 18068
+      dbwFbLoco: { grabNumber:66, grabMsec:18067, deviceSec:0,
+          deviceUsec:11882934, vehicleCanData:{ shootNumber:82,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11882934, m_speed:5.3500000000000000e+01,
+          m_path:28423, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 3100
+      grabMsec: 18104
+      leftImage: { grabNumber:33, grabMsec:17996, deviceSec:1573647312,
+          deviceUsec:966555 }
+   -
+      grabNumber: 3119
+      grabMsec: 18125
+      nearImage: { grabNumber:31, grabMsec:18010, deviceSec:1573647312,
+          deviceUsec:988928 }
+   -
+      grabNumber: 3128
+      grabMsec: 18134
+      centerImage: { grabNumber:33, grabMsec:18018, deviceSec:1573647312,
+          deviceUsec:995219 }
+      eleftImage: { grabNumber:43, grabMsec:18128, deviceSec:1573647312,
+          deviceUsec:995219 }
+   -
+      grabNumber: 3190
+      grabMsec: 18200
+      emlidLeft: { grabNumber:50, grabMsec:18197, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405583413333339e+01,
+          east:4.1233699810000005e+01, alt:1.4564900000000000e+02,
+          speed:1.5047499999999999e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6844637123527821e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:13+03:00" } }
+   -
+      grabNumber: 3208
+      grabMsec: 18219
+      eleftImage: { grabNumber:44, grabMsec:18213, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3210
+      grabMsec: 18221
+      dbwFbLoco: { grabNumber:67, grabMsec:18220, deviceSec:0,
+          deviceUsec:11882934, vehicleCanData:{ shootNumber:83,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11882934, m_speed:5.3500000000000000e+01,
+          m_path:28423, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 3217
+      grabMsec: 18229
+      leftImage: { grabNumber:34, grabMsec:18100, deviceSec:1573647313,
+          deviceUsec:86779 }
+   -
+      grabNumber: 3227
+      grabMsec: 18239
+      centerImage: { grabNumber:34, grabMsec:18128, deviceSec:1573647313,
+          deviceUsec:104834 }
+      nearImage: { grabNumber:32, grabMsec:18121, deviceSec:1573647313,
+          deviceUsec:104315 }
+   -
+      grabNumber: 3282
+      grabMsec: 18298
+      eleftImage: { grabNumber:45, grabMsec:18293, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3305
+      grabMsec: 18322
+      leftImage: { grabNumber:35, grabMsec:18222, deviceSec:1573647313,
+          deviceUsec:185785 }
+   -
+      grabNumber: 3329
+      grabMsec: 18347
+      centerImage: { grabNumber:35, grabMsec:18236, deviceSec:1573647313,
+          deviceUsec:214441 }
+   -
+      grabNumber: 3338
+      grabMsec: 18357
+      nearImage: { grabNumber:33, grabMsec:18235, deviceSec:1573647313,
+          deviceUsec:219626 }
+   -
+      grabNumber: 3350
+      grabMsec: 18370
+      dbwFbLoco: { grabNumber:68, grabMsec:18368, deviceSec:0,
+          deviceUsec:11882934, vehicleCanData:{ shootNumber:84,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11882934, m_speed:5.3500000000000000e+01,
+          m_path:28435, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 3365
+      grabMsec: 18386
+      eleftImage: { grabNumber:46, grabMsec:18380, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3387
+      grabMsec: 18409
+      emlidLeft: { grabNumber:51, grabMsec:18407, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405595819999995e+01,
+          east:4.1233745571666667e+01, alt:1.4561099999999999e+02,
+          speed:1.5062933333333335e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6513024565648875e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:13.020+03:00" } }
+   -
+      grabNumber: 3409
+      grabMsec: 18432
+      leftImage: { grabNumber:36, grabMsec:18318, deviceSec:1573647313,
+          deviceUsec:295453 }
+   -
+      grabNumber: 3436
+      grabMsec: 18461
+      centerImage: { grabNumber:36, grabMsec:18345, deviceSec:1573647313,
+          deviceUsec:324056 }
+   -
+      grabNumber: 3439
+      grabMsec: 18464
+      eleftImage: { grabNumber:47, grabMsec:18460, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3444
+      grabMsec: 18469
+      nearImage: { grabNumber:34, grabMsec:18353, deviceSec:1573647313,
+          deviceUsec:335044 }
+   -
+      grabNumber: 3492
+      grabMsec: 18520
+      dbwFbLoco: { grabNumber:69, grabMsec:18518, deviceSec:0,
+          deviceUsec:11882934, vehicleCanData:{ shootNumber:85,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11882934, m_speed:5.3500000000000000e+01,
+          m_path:28435, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 3511
+      grabMsec: 18540
+      leftImage: { grabNumber:37, grabMsec:18430, deviceSec:1573647313,
+          deviceUsec:405061 }
+   -
+      grabNumber: 3520
+      grabMsec: 18550
+      eleftImage: { grabNumber:48, grabMsec:18545, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3538
+      grabMsec: 18569
+      centerImage: { grabNumber:37, grabMsec:18458, deviceSec:1573647313,
+          deviceUsec:433681 }
+   -
+      grabNumber: 3553
+      grabMsec: 18585
+      nearImage: { grabNumber:35, grabMsec:18466, deviceSec:1573647313,
+          deviceUsec:450370 }
+   -
+      grabNumber: 3579
+      grabMsec: 18612
+      emlidLeft: { grabNumber:52, grabMsec:18609, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405608288333333e+01,
+          east:4.1233791239999995e+01, alt:1.4558099999999999e+02,
+          speed:1.5037211111111111e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7019170048727221e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:13.040+03:00" } }
+   -
+      grabNumber: 3596
+      grabMsec: 18630
+      eleftImage: { grabNumber:49, grabMsec:18627, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3614
+      grabMsec: 18649
+      leftImage: { grabNumber:38, grabMsec:18536, deviceSec:1573647313,
+          deviceUsec:514668 }
+   -
+      grabNumber: 3632
+      grabMsec: 18669
+      dbwFbLoco: { grabNumber:70, grabMsec:18667, deviceSec:0,
+          deviceUsec:11882934, vehicleCanData:{ shootNumber:86,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11882934, m_speed:5.3500000000000000e+01,
+          m_path:28435, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 3641
+      grabMsec: 18678
+      centerImage: { grabNumber:38, grabMsec:18565, deviceSec:1573647313,
+          deviceUsec:543294 }
+   -
+      grabNumber: 3661
+      grabMsec: 18699
+      nearImage: { grabNumber:36, grabMsec:18581, deviceSec:1573647313,
+          deviceUsec:565745 }
+   -
+      grabNumber: 3679
+      grabMsec: 18718
+      eleftImage: { grabNumber:50, grabMsec:18713, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3718
+      grabMsec: 18760
+      leftImage: { grabNumber:39, grabMsec:18645, deviceSec:1573647313,
+          deviceUsec:624286 }
+   -
+      grabNumber: 3744
+      grabMsec: 18788
+      centerImage: { grabNumber:39, grabMsec:18675, deviceSec:1573647313,
+          deviceUsec:652919 }
+   -
+      grabNumber: 3764
+      grabMsec: 18809
+      emlidLeft: { grabNumber:53, grabMsec:18806, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405620736666670e+01,
+          east:4.1233836983333340e+01, alt:1.4555099999999999e+02,
+          speed:1.5078366666666666e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6827183831007857e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:13.060+03:00" } }
+   -
+      grabNumber: 3769
+      grabMsec: 18814
+      eleftImage: { grabNumber:51, grabMsec:18810, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3772
+      grabMsec: 18817
+      nearImage: { grabNumber:37, grabMsec:18696, deviceSec:1573647313,
+          deviceUsec:681125 }
+   -
+      grabNumber: 3774
+      grabMsec: 18820
+      dbwFbLoco: { grabNumber:71, grabMsec:18818, deviceSec:0,
+          deviceUsec:11882934, vehicleCanData:{ shootNumber:87,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11882934, m_speed:5.3500000000000000e+01,
+          m_path:28435, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 3820
+      grabMsec: 18869
+      leftImage: { grabNumber:40, grabMsec:18756, deviceSec:1573647313,
+          deviceUsec:733895 }
+   -
+      grabNumber: 3831
+      grabMsec: 18880
+      eleftImage: { grabNumber:52, grabMsec:18877, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3848
+      grabMsec: 18898
+      centerImage: { grabNumber:40, grabMsec:18784, deviceSec:1573647313,
+          deviceUsec:762539 }
+   -
+      grabNumber: 3878
+      grabMsec: 18930
+      nearImage: { grabNumber:38, grabMsec:18812, deviceSec:1573647313,
+          deviceUsec:796500 }
+   -
+      grabNumber: 3915
+      grabMsec: 18969
+      eleftImage: { grabNumber:53, grabMsec:18965, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 3917
+      grabMsec: 18971
+      dbwFbLoco: { grabNumber:72, grabMsec:18970, deviceSec:0,
+          deviceUsec:11882934, vehicleCanData:{ shootNumber:88,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11882934, m_speed:5.3500000000000000e+01,
+          m_path:28435, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 3926
+      grabMsec: 18981
+      leftImage: { grabNumber:41, grabMsec:18865, deviceSec:1573647313,
+          deviceUsec:843508 }
+   -
+      grabNumber: 3950
+      grabMsec: 19007
+      centerImage: { grabNumber:41, grabMsec:18894, deviceSec:1573647313,
+          deviceUsec:872144 }
+      emlidLeft: { grabNumber:54, grabMsec:19004, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405633090000009e+01,
+          east:4.1233883024999990e+01, alt:1.4551800000000000e+02,
+          speed:1.5196688888888890e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6338491640449453e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:13.080+03:00" } }
+   -
+      grabNumber: 3989
+      grabMsec: 19049
+      nearImage: { grabNumber:39, grabMsec:18927, deviceSec:1573647313,
+          deviceUsec:911876 }
+   -
+      grabNumber: 3992
+      grabMsec: 19052
+      eleftImage: { grabNumber:54, grabMsec:19044, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4027
+      grabMsec: 19089
+      leftImage: { grabNumber:42, grabMsec:18976, deviceSec:1573647313,
+          deviceUsec:953140 }
+   -
+      grabNumber: 4053
+      grabMsec: 19117
+      centerImage: { grabNumber:42, grabMsec:19003, deviceSec:1573647313,
+          deviceUsec:981762 }
+   -
+      grabNumber: 4055
+      grabMsec: 19119
+      dbwFbLoco: { grabNumber:73, grabMsec:19118, deviceSec:0,
+          deviceUsec:11883935, vehicleCanData:{ shootNumber:89,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11883935, m_speed:5.3500000000000000e+01,
+          m_path:28435, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 4067
+      grabMsec: 19132
+      eleftImage: { grabNumber:55, grabMsec:19126, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4095
+      grabMsec: 19162
+      nearImage: { grabNumber:40, grabMsec:19043, deviceSec:1573647314,
+          deviceUsec:27211 }
+   -
+      grabNumber: 4128
+      grabMsec: 19197
+      leftImage: { grabNumber:43, grabMsec:19086, deviceSec:1573647314,
+          deviceUsec:62761 }
+   -
+      grabNumber: 4145
+      grabMsec: 19215
+      eleftImage: { grabNumber:56, grabMsec:19210, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4149
+      grabMsec: 19219
+      emlidLeft: { grabNumber:55, grabMsec:19216, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405645486666664e+01,
+          east:4.1233929034999996e+01, alt:1.4549000000000001e+02,
+          speed:1.5119522222222223e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6425758103049164e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:14+03:00" } }
+   -
+      grabNumber: 4158
+      grabMsec: 19229
+      centerImage: { grabNumber:43, grabMsec:19113, deviceSec:1573647314,
+          deviceUsec:91385 }
+   -
+      grabNumber: 4196
+      grabMsec: 19269
+      dbwFbLoco: { grabNumber:74, grabMsec:19267, deviceSec:0,
+          deviceUsec:11883935, vehicleCanData:{ shootNumber:90,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11883935, m_speed:5.3500000000000000e+01,
+          m_path:28448, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 4204
+      grabMsec: 19278
+      nearImage: { grabNumber:41, grabMsec:19158, deviceSec:1573647314,
+          deviceUsec:142616 }
+   -
+      grabNumber: 4222
+      grabMsec: 19297
+      eleftImage: { grabNumber:57, grabMsec:19291, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4232
+      grabMsec: 19307
+      leftImage: { grabNumber:44, grabMsec:19194, deviceSec:1573647314,
+          deviceUsec:172379 }
+   -
+      grabNumber: 4261
+      grabMsec: 19338
+      centerImage: { grabNumber:44, grabMsec:19222, deviceSec:1573647314,
+          deviceUsec:200993 }
+   -
+      grabNumber: 4308
+      grabMsec: 19388
+      eleftImage: { grabNumber:58, grabMsec:19382, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4315
+      grabMsec: 19396
+      nearImage: { grabNumber:42, grabMsec:19274, deviceSec:1573647314,
+          deviceUsec:257976 }
+   -
+      grabNumber: 4329
+      grabMsec: 19410
+      emlidLeft: { grabNumber:56, grabMsec:19408, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405657894999997e+01,
+          east:4.1233974826666660e+01, alt:1.4546199999999999e+02,
+          speed:1.5016633333333335e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7315876021566261e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:14.020+03:00" } }
+   -
+      grabNumber: 4339
+      grabMsec: 19421
+      leftImage: { grabNumber:45, grabMsec:19303, deviceSec:1573647314,
+          deviceUsec:281985 }
+   -
+      grabNumber: 4341
+      grabMsec: 19423
+      dbwFbLoco: { grabNumber:75, grabMsec:19421, deviceSec:0,
+          deviceUsec:11883935, vehicleCanData:{ shootNumber:91,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11883935, m_speed:5.3500000000000000e+01,
+          m_path:28448, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 4363
+      grabMsec: 19446
+      centerImage: { grabNumber:45, grabMsec:19333, deviceSec:1573647314,
+          deviceUsec:310599 }
+   -
+      grabNumber: 4380
+      grabMsec: 19465
+      eleftImage: { grabNumber:59, grabMsec:19461, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4421
+      grabMsec: 19508
+      nearImage: { grabNumber:43, grabMsec:19389, deviceSec:1573647314,
+          deviceUsec:373335 }
+   -
+      grabNumber: 4437
+      grabMsec: 19525
+      leftImage: { grabNumber:46, grabMsec:19413, deviceSec:1573647314,
+          deviceUsec:391602 }
+   -
+      grabNumber: 4463
+      grabMsec: 19553
+      eleftImage: { grabNumber:60, grabMsec:19549, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4466
+      grabMsec: 19556
+      centerImage: { grabNumber:46, grabMsec:19442, deviceSec:1573647314,
+          deviceUsec:420225 }
+   -
+      grabNumber: 4480
+      grabMsec: 19571
+      dbwFbLoco: { grabNumber:76, grabMsec:19569, deviceSec:0,
+          deviceUsec:11883935, vehicleCanData:{ shootNumber:92,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11883935, m_speed:5.3500000000000000e+01,
+          m_path:28448, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 4518
+      grabMsec: 19611
+      emlidLeft: { grabNumber:57, grabMsec:19608, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405670136666672e+01,
+          east:4.1234020891666660e+01, alt:1.4544300000000001e+02,
+          speed:1.5140100000000000e+01, vf:0., vl:0., vu:0.,
+          yaw:4.5727626402251431e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:14.040+03:00" } }
+   -
+      grabNumber: 4528
+      grabMsec: 19621
+      nearImage: { grabNumber:44, grabMsec:19504, deviceSec:1573647314,
+          deviceUsec:488709 }
+   -
+      grabNumber: 4538
+      grabMsec: 19632
+      eleftImage: { grabNumber:61, grabMsec:19628, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4542
+      grabMsec: 19636
+      leftImage: { grabNumber:47, grabMsec:19523, deviceSec:1573647314,
+          deviceUsec:501210 }
+   -
+      grabNumber: 4552
+      grabMsec: 19671
+      centerImage: { grabNumber:47, grabMsec:19551, deviceSec:1573647314,
+          deviceUsec:529843 }
+   -
+      grabNumber: 4595
+      grabMsec: 19717
+      eleftImage: { grabNumber:62, grabMsec:19713, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4598
+      grabMsec: 19720
+      dbwFbLoco: { grabNumber:77, grabMsec:19719, deviceSec:0,
+          deviceUsec:11883935, vehicleCanData:{ shootNumber:93,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11883935, m_speed:5.3500000000000000e+01,
+          m_path:28448, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 4615
+      grabMsec: 19738
+      nearImage: { grabNumber:45, grabMsec:19619, deviceSec:1573647314,
+          deviceUsec:604083 }
+   -
+      grabNumber: 4616
+      grabMsec: 19750
+      leftImage: { grabNumber:48, grabMsec:19634, deviceSec:1573647314,
+          deviceUsec:610827 }
+   -
+      grabNumber: 4638
+      grabMsec: 19773
+      centerImage: { grabNumber:48, grabMsec:19662, deviceSec:1573647314,
+          deviceUsec:639460 }
+   -
+      grabNumber: 4665
+      grabMsec: 19817
+      emlidLeft: { grabNumber:58, grabMsec:19813, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405682405000000e+01,
+          east:4.1234067188333334e+01, alt:1.4541700000000000e+02,
+          speed:1.5232700000000001e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6006879082570529e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:14.060+03:00" } }
+   -
+      grabNumber: 4669
+      grabMsec: 19821
+      eleftImage: { grabNumber:63, grabMsec:19817, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4706
+      grabMsec: 19860
+      leftImage: { grabNumber:49, grabMsec:19745, deviceSec:1573647314,
+          deviceUsec:720447 }
+   -
+      grabNumber: 4714
+      grabMsec: 19869
+      nearImage: { grabNumber:46, grabMsec:19735, deviceSec:1573647314,
+          deviceUsec:719461 }
+   -
+      grabNumber: 4715
+      grabMsec: 19870
+      dbwFbLoco: { grabNumber:78, grabMsec:19869, deviceSec:0,
+          deviceUsec:11883935, vehicleCanData:{ shootNumber:94,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11883935, m_speed:5.3500000000000000e+01,
+          m_path:28448, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 4729
+      grabMsec: 19885
+      eleftImage: { grabNumber:64, grabMsec:19881, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4732
+      grabMsec: 19888
+      centerImage: { grabNumber:49, grabMsec:19771, deviceSec:1573647314,
+          deviceUsec:749079 }
+   -
+      grabNumber: 4803
+      grabMsec: 19963
+      eleftImage: { grabNumber:65, grabMsec:19959, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4807
+      grabMsec: 19967
+      leftImage: { grabNumber:50, grabMsec:19853, deviceSec:1573647314,
+          deviceUsec:830057 }
+   -
+      grabNumber: 4810
+      grabMsec: 19971
+      nearImage: { grabNumber:47, grabMsec:19853, deviceSec:1573647314,
+          deviceUsec:834791 }
+   -
+      grabNumber: 4831
+      grabMsec: 19993
+      centerImage: { grabNumber:50, grabMsec:19881, deviceSec:1573647314,
+          deviceUsec:858702 }
+   -
+      grabNumber: 4843
+      grabMsec: 20006
+      emlidLeft: { grabNumber:59, grabMsec:20003, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405694721666670e+01,
+          east:4.1234113298333327e+01, alt:1.4540500000000000e+02,
+          speed:1.5109233333333334e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6914450293607568e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:14.080+03:00" } }
+   -
+      grabNumber: 4857
+      grabMsec: 20021
+      dbwFbLoco: { grabNumber:79, grabMsec:20019, deviceSec:0,
+          deviceUsec:11883935, vehicleCanData:{ shootNumber:95,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.3500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11883935, m_speed:5.3500000000000000e+01,
+          m_path:28448, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 4886
+      grabMsec: 20052
+      eleftImage: { grabNumber:66, grabMsec:20046, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4908
+      grabMsec: 20075
+      leftImage: { grabNumber:51, grabMsec:19963, deviceSec:1573647314,
+          deviceUsec:939698 }
+   -
+      grabNumber: 4917
+      grabMsec: 20085
+      nearImage: { grabNumber:48, grabMsec:19968, deviceSec:1573647314,
+          deviceUsec:950165 }
+   -
+      grabNumber: 4933
+      grabMsec: 20102
+      centerImage: { grabNumber:51, grabMsec:19990, deviceSec:1573647314,
+          deviceUsec:968308 }
+   -
+      grabNumber: 4960
+      grabMsec: 20130
+      eleftImage: { grabNumber:67, grabMsec:20126, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 4998
+      grabMsec: 20171
+      dbwFbLoco: { grabNumber:80, grabMsec:20169, deviceSec:0,
+          deviceUsec:11884938, vehicleCanData:{ shootNumber:96,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11884938, m_speed:54.,
+          m_path:28448, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5011
+      grabMsec: 20184
+      leftImage: { grabNumber:52, grabMsec:20072, deviceSec:1573647315,
+          deviceUsec:49310 }
+   -
+      grabNumber: 5025
+      grabMsec: 20199
+      nearImage: { grabNumber:49, grabMsec:20080, deviceSec:1573647315,
+          deviceUsec:65539 }
+      emlidLeft: { grabNumber:60, grabMsec:20197, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405707028333339e+01,
+          east:4.1234159406666670e+01, alt:1.4538200000000001e+02,
+          speed:1.5129811111111112e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6076692252650298e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:15+03:00" } }
+   -
+      grabNumber: 5038
+      grabMsec: 20213
+      centerImage: { grabNumber:52, grabMsec:20099, deviceSec:1573647315,
+          deviceUsec:77922 }
+   -
+      grabNumber: 5043
+      grabMsec: 20218
+      eleftImage: { grabNumber:68, grabMsec:20214, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5116
+      grabMsec: 20296
+      leftImage: { grabNumber:53, grabMsec:20182, deviceSec:1573647315,
+          deviceUsec:158925 }
+   -
+      grabNumber: 5117
+      grabMsec: 20304
+      eleftImage: { grabNumber:69, grabMsec:20295, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5127
+      grabMsec: 20315
+      nearImage: { grabNumber:50, grabMsec:20196, deviceSec:1573647315,
+          deviceUsec:180914 }
+   -
+      grabNumber: 5134
+      grabMsec: 20322
+      centerImage: { grabNumber:53, grabMsec:20209, deviceSec:1573647315,
+          deviceUsec:187539 }
+      dbwFbLoco: { grabNumber:81, grabMsec:20320, deviceSec:0,
+          deviceUsec:11884938, vehicleCanData:{ shootNumber:97,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11884938, m_speed:54.,
+          m_path:28472, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5181
+      grabMsec: 20385
+      eleftImage: { grabNumber:70, grabMsec:20382, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5202
+      grabMsec: 20408
+      leftImage: { grabNumber:54, grabMsec:20292, deviceSec:1573647315,
+          deviceUsec:268513 }
+   -
+      grabNumber: 5204
+      grabMsec: 20410
+      emlidLeft: { grabNumber:61, grabMsec:20407, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405719449999999e+01,
+          east:4.1234205481666670e+01, alt:1.4536799999999999e+02,
+          speed:1.5176111111111110e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7123889803846897e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:15.020+03:00" } }
+   -
+      grabNumber: 5225
+      grabMsec: 20432
+      centerImage: { grabNumber:54, grabMsec:20318, deviceSec:1573647315,
+          deviceUsec:297153 }
+      nearImage: { grabNumber:51, grabMsec:20311, deviceSec:1573647315,
+          deviceUsec:296289 }
+   -
+      grabNumber: 5256
+      grabMsec: 20465
+      eleftImage: { grabNumber:71, grabMsec:20460, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5262
+      grabMsec: 20472
+      dbwFbLoco: { grabNumber:82, grabMsec:20470, deviceSec:0,
+          deviceUsec:11884938, vehicleCanData:{ shootNumber:98,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11884938, m_speed:54.,
+          m_path:28472, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5305
+      grabMsec: 20517
+      leftImage: { grabNumber:55, grabMsec:20403, deviceSec:1573647315,
+          deviceUsec:378172 }
+   -
+      grabNumber: 5328
+      grabMsec: 20541
+      centerImage: { grabNumber:55, grabMsec:20428, deviceSec:1573647315,
+          deviceUsec:406772 }
+   -
+      grabNumber: 5335
+      grabMsec: 20549
+      nearImage: { grabNumber:52, grabMsec:20427, deviceSec:1573647315,
+          deviceUsec:411678 }
+   -
+      grabNumber: 5336
+      grabMsec: 20560
+      eleftImage: { grabNumber:72, grabMsec:20547, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5387
+      grabMsec: 20614
+      emlidLeft: { grabNumber:62, grabMsec:20611, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405731815000003e+01,
+          east:4.1234251661666669e+01, alt:1.4533699999999999e+02,
+          speed:1.5181255555555556e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6408304810529244e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:15.040+03:00" } }
+   -
+      grabNumber: 5393
+      grabMsec: 20621
+      dbwFbLoco: { grabNumber:83, grabMsec:20619, deviceSec:0,
+          deviceUsec:11884938, vehicleCanData:{ shootNumber:99,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11884938, m_speed:54.,
+          m_path:28472, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5398
+      grabMsec: 20626
+      leftImage: { grabNumber:56, grabMsec:20510, deviceSec:1573647315,
+          deviceUsec:487793 }
+   -
+      grabNumber: 5404
+      grabMsec: 20633
+      eleftImage: { grabNumber:73, grabMsec:20629, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5421
+      grabMsec: 20651
+      centerImage: { grabNumber:56, grabMsec:20537, deviceSec:1573647315,
+          deviceUsec:516391 }
+   -
+      grabNumber: 5432
+      grabMsec: 20662
+      nearImage: { grabNumber:53, grabMsec:20542, deviceSec:1573647315,
+          deviceUsec:527042 }
+   -
+      grabNumber: 5488
+      grabMsec: 20722
+      eleftImage: { grabNumber:74, grabMsec:20719, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5499
+      grabMsec: 20733
+      leftImage: { grabNumber:57, grabMsec:20621, deviceSec:1573647315,
+          deviceUsec:597401 }
+   -
+      grabNumber: 5523
+      grabMsec: 20759
+      centerImage: { grabNumber:57, grabMsec:20647, deviceSec:1573647315,
+          deviceUsec:626005 }
+   -
+      grabNumber: 5535
+      grabMsec: 20772
+      dbwFbLoco: { grabNumber:84, grabMsec:20770, deviceSec:0,
+          deviceUsec:11884938, vehicleCanData:{ shootNumber:100,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11884938, m_speed:54.,
+          m_path:28472, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5542
+      grabMsec: 20779
+      nearImage: { grabNumber:54, grabMsec:20659, deviceSec:1573647315,
+          deviceUsec:642365 }
+   -
+      grabNumber: 5576
+      grabMsec: 20815
+      emlidLeft: { grabNumber:63, grabMsec:20813, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405744123333335e+01,
+          east:4.1234297838333333e+01, alt:1.4531299999999999e+02,
+          speed:1.5140100000000000e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6146505422730066e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:15.060+03:00" } }
+   -
+      grabNumber: 5583
+      grabMsec: 20822
+      eleftImage: { grabNumber:75, grabMsec:20819, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5602
+      grabMsec: 20843
+      leftImage: { grabNumber:58, grabMsec:20729, deviceSec:1573647315,
+          deviceUsec:707007 }
+   -
+      grabNumber: 5628
+      grabMsec: 20870
+      centerImage: { grabNumber:58, grabMsec:20756, deviceSec:1573647315,
+          deviceUsec:735621 }
+   -
+      grabNumber: 5639
+      grabMsec: 20882
+      eleftImage: { grabNumber:76, grabMsec:20879, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5650
+      grabMsec: 20893
+      nearImage: { grabNumber:55, grabMsec:20774, deviceSec:1573647315,
+          deviceUsec:757737 }
+   -
+      grabNumber: 5676
+      grabMsec: 20921
+      dbwFbLoco: { grabNumber:85, grabMsec:20919, deviceSec:0,
+          deviceUsec:11884938, vehicleCanData:{ shootNumber:101,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11884938, m_speed:54.,
+          m_path:28472, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5704
+      grabMsec: 20951
+      leftImage: { grabNumber:59, grabMsec:20839, deviceSec:1573647315,
+          deviceUsec:816620 }
+   -
+      grabNumber: 5715
+      grabMsec: 20962
+      eleftImage: { grabNumber:77, grabMsec:20959, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5732
+      grabMsec: 20980
+      centerImage: { grabNumber:59, grabMsec:20866, deviceSec:1573647315,
+          deviceUsec:845240 }
+   -
+      grabNumber: 5752
+      grabMsec: 21002
+      emlidLeft: { grabNumber:64, grabMsec:21000, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405756591666673e+01,
+          east:4.1234344201666666e+01, alt:1.4528600000000000e+02,
+          speed:1.5304722222222223e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7263516144006434e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:15.080+03:00" } }
+   -
+      grabNumber: 5760
+      grabMsec: 21010
+      nearImage: { grabNumber:56, grabMsec:20888, deviceSec:1573647315,
+          deviceUsec:873114 }
+   -
+      grabNumber: 5797
+      grabMsec: 21049
+      eleftImage: { grabNumber:78, grabMsec:21044, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5808
+      grabMsec: 21061
+      leftImage: { grabNumber:60, grabMsec:20947, deviceSec:1573647315,
+          deviceUsec:926236 }
+   -
+      grabNumber: 5818
+      grabMsec: 21072
+      dbwFbLoco: { grabNumber:86, grabMsec:21070, deviceSec:0,
+          deviceUsec:11885939, vehicleCanData:{ shootNumber:102,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11885939, m_speed:54.,
+          m_path:28472, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5837
+      grabMsec: 21092
+      centerImage: { grabNumber:60, grabMsec:20976, deviceSec:1573647315,
+          deviceUsec:954866 }
+   -
+      grabNumber: 5867
+      grabMsec: 21124
+      nearImage: { grabNumber:57, grabMsec:21006, deviceSec:1573647315,
+          deviceUsec:988490 }
+   -
+      grabNumber: 5875
+      grabMsec: 21132
+      eleftImage: { grabNumber:79, grabMsec:21128, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5911
+      grabMsec: 21170
+      leftImage: { grabNumber:61, grabMsec:21057, deviceSec:1573647316,
+          deviceUsec:35849 }
+   -
+      grabNumber: 5938
+      grabMsec: 21199
+      centerImage: { grabNumber:61, grabMsec:21088, deviceSec:1573647316,
+          deviceUsec:64470 }
+   -
+      grabNumber: 5950
+      grabMsec: 21212
+      emlidLeft: { grabNumber:65, grabMsec:21209, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405768861666665e+01,
+          east:4.1234390511666668e+01, alt:1.4525899999999999e+02,
+          speed:1.5119522222222223e+01, vf:0., vl:0., vu:0.,
+          yaw:4.5919612619970818e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:16+03:00" } }
+   -
+      grabNumber: 5955
+      grabMsec: 21217
+      eleftImage: { grabNumber:80, grabMsec:21213, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 5959
+      grabMsec: 21222
+      dbwFbLoco: { grabNumber:87, grabMsec:21220, deviceSec:0,
+          deviceUsec:11885939, vehicleCanData:{ shootNumber:103,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11885939, m_speed:54.,
+          m_path:28472, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 5978
+      grabMsec: 21242
+      nearImage: { grabNumber:58, grabMsec:21119, deviceSec:1573647316,
+          deviceUsec:103864 }
+   -
+      grabNumber: 6015
+      grabMsec: 21281
+      leftImage: { grabNumber:62, grabMsec:21167, deviceSec:1573647316,
+          deviceUsec:145450 }
+   -
+      grabNumber: 6038
+      grabMsec: 21305
+      eleftImage: { grabNumber:81, grabMsec:21300, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6041
+      grabMsec: 21309
+      centerImage: { grabNumber:62, grabMsec:21195, deviceSec:1573647316,
+          deviceUsec:174100 }
+   -
+      grabNumber: 6083
+      grabMsec: 21353
+      nearImage: { grabNumber:59, grabMsec:21235, deviceSec:1573647316,
+          deviceUsec:219238 }
+   -
+      grabNumber: 6101
+      grabMsec: 21372
+      dbwFbLoco: { grabNumber:88, grabMsec:21371, deviceSec:0,
+          deviceUsec:11885939, vehicleCanData:{ shootNumber:104,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11885939, m_speed:54.,
+          m_path:28477, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 6112
+      grabMsec: 21384
+      eleftImage: { grabNumber:82, grabMsec:21380, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6116
+      grabMsec: 21388
+      leftImage: { grabNumber:63, grabMsec:21276, deviceSec:1573647316,
+          deviceUsec:255064 }
+   -
+      grabNumber: 6132
+      grabMsec: 21405
+      emlidLeft: { grabNumber:66, grabMsec:21403, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405781378333330e+01,
+          east:4.1234436796666657e+01, alt:1.4525600000000000e+02,
+          speed:1.5279000000000000e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6757370660928088e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:16.020+03:00" } }
+   -
+      grabNumber: 6145
+      grabMsec: 21419
+      centerImage: { grabNumber:63, grabMsec:21305, deviceSec:1573647316,
+          deviceUsec:283694 }
+   -
+      grabNumber: 6184
+      grabMsec: 21460
+      eleftImage: { grabNumber:83, grabMsec:21457, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6192
+      grabMsec: 21469
+      nearImage: { grabNumber:60, grabMsec:21349, deviceSec:1573647316,
+          deviceUsec:334595 }
+   -
+      grabNumber: 6221
+      grabMsec: 21500
+      leftImage: { grabNumber:64, grabMsec:21386, deviceSec:1573647316,
+          deviceUsec:364726 }
+   -
+      grabNumber: 6241
+      grabMsec: 21521
+      dbwFbLoco: { grabNumber:89, grabMsec:21519, deviceSec:0,
+          deviceUsec:11885939, vehicleCanData:{ shootNumber:105,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11885939, m_speed:54.,
+          m_path:28477, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 6248
+      grabMsec: 21528
+      centerImage: { grabNumber:64, grabMsec:21415, deviceSec:1573647316,
+          deviceUsec:393319 }
+   -
+      grabNumber: 6271
+      grabMsec: 21553
+      eleftImage: { grabNumber:84, grabMsec:21548, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6301
+      grabMsec: 21584
+      nearImage: { grabNumber:61, grabMsec:21465, deviceSec:1573647316,
+          deviceUsec:449968 }
+   -
+      grabNumber: 6324
+      grabMsec: 21609
+      leftImage: { grabNumber:65, grabMsec:21496, deviceSec:1573647316,
+          deviceUsec:474336 }
+   -
+      grabNumber: 6330
+      grabMsec: 21615
+      emlidLeft: { grabNumber:67, grabMsec:21612, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405793785000000e+01,
+          east:4.1234483243333337e+01, alt:1.4523300000000000e+02,
+          speed:1.5242988888888888e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6931903586127532e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:16.040+03:00" } }
+   -
+      grabNumber: 6341
+      grabMsec: 21636
+      eleftImage: { grabNumber:85, grabMsec:21631, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6343
+      grabMsec: 21638
+      centerImage: { grabNumber:65, grabMsec:21525, deviceSec:1573647316,
+          deviceUsec:502939 }
+   -
+      grabNumber: 6373
+      grabMsec: 21671
+      dbwFbLoco: { grabNumber:90, grabMsec:21670, deviceSec:0,
+          deviceUsec:11885939, vehicleCanData:{ shootNumber:106,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11885939, m_speed:54.,
+          m_path:28477, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 6410
+      grabMsec: 21719
+      nearImage: { grabNumber:62, grabMsec:21580, deviceSec:1573647316,
+          deviceUsec:565351 }
+      eleftImage: { grabNumber:86, grabMsec:21713, deviceSec:1573647316,
+          deviceUsec:565351 }
+   -
+      grabNumber: 6413
+      grabMsec: 21723
+      leftImage: { grabNumber:66, grabMsec:21606, deviceSec:1573647316,
+          deviceUsec:583958 }
+   -
+      grabNumber: 6440
+      grabMsec: 21751
+      centerImage: { grabNumber:66, grabMsec:21635, deviceSec:1573647316,
+          deviceUsec:612556 }
+   -
+      grabNumber: 6498
+      grabMsec: 21813
+      emlidLeft: { grabNumber:68, grabMsec:21810, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405807235000005e+01,
+          east:4.1234527819999997e+01, alt:1.4515100000000001e+02,
+          speed:1.5196688888888890e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6844637123527821e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:16.060+03:00" } }
+   -
+      grabNumber: 6500
+      grabMsec: 21815
+      nearImage: { grabNumber:63, grabMsec:21696, deviceSec:1573647316,
+          deviceUsec:680717 }
+   -
+      grabNumber: 6504
+      grabMsec: 21819
+      eleftImage: { grabNumber:87, grabMsec:21815, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6505
+      grabMsec: 21820
+      dbwFbLoco: { grabNumber:91, grabMsec:21819, deviceSec:0,
+          deviceUsec:11885939, vehicleCanData:{ shootNumber:107,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11885939, m_speed:54.,
+          m_path:28477, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 6512
+      grabMsec: 21828
+      leftImage: { grabNumber:67, grabMsec:21716, deviceSec:1573647316,
+          deviceUsec:693566 }
+   -
+      grabNumber: 6541
+      grabMsec: 21858
+      centerImage: { grabNumber:67, grabMsec:21744, deviceSec:1573647316,
+          deviceUsec:722166 }
+   -
+      grabNumber: 6564
+      grabMsec: 21883
+      eleftImage: { grabNumber:88, grabMsec:21878, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6608
+      grabMsec: 21930
+      nearImage: { grabNumber:64, grabMsec:21811, deviceSec:1573647316,
+          deviceUsec:796035 }
+   -
+      grabNumber: 6615
+      grabMsec: 21937
+      leftImage: { grabNumber:68, grabMsec:21824, deviceSec:1573647316,
+          deviceUsec:803183 }
+   -
+      grabNumber: 6642
+      grabMsec: 21965
+      eleftImage: { grabNumber:89, grabMsec:21962, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6645
+      grabMsec: 21969
+      centerImage: { grabNumber:68, grabMsec:21854, deviceSec:1573647316,
+          deviceUsec:831781 }
+   -
+      grabNumber: 6649
+      grabMsec: 21973
+      dbwFbLoco: { grabNumber:92, grabMsec:21971, deviceSec:0,
+          deviceUsec:11885939, vehicleCanData:{ shootNumber:108,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11885939, m_speed:54.,
+          m_path:28477, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 6681
+      grabMsec: 22007
+      emlidLeft: { grabNumber:69, grabMsec:22005, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405819536666662e+01,
+          east:4.1234574504999998e+01, alt:1.4513800000000001e+02,
+          speed:1.5351022222222221e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7088983218807012e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:16.080+03:00" } }
+   -
+      grabNumber: 6722
+      grabMsec: 22050
+      leftImage: { grabNumber:69, grabMsec:21934, deviceSec:1573647316,
+          deviceUsec:912799 }
+   -
+      grabNumber: 6725
+      grabMsec: 22054
+      eleftImage: { grabNumber:90, grabMsec:22047, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6728
+      grabMsec: 22057
+      nearImage: { grabNumber:65, grabMsec:21926, deviceSec:1573647316,
+          deviceUsec:921235 }
+   -
+      grabNumber: 6746
+      grabMsec: 22076
+      centerImage: { grabNumber:69, grabMsec:21963, deviceSec:1573647316,
+          deviceUsec:941405 }
+   -
+      grabNumber: 6790
+      grabMsec: 22123
+      dbwFbLoco: { grabNumber:93, grabMsec:22121, deviceSec:0,
+          deviceUsec:11886942, vehicleCanData:{ shootNumber:109,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11886942, m_speed:54.,
+          m_path:28477, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 6792
+      grabMsec: 22131
+      eleftImage: { grabNumber:91, grabMsec:22126, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6815
+      grabMsec: 22165
+      leftImage: { grabNumber:70, grabMsec:22046, deviceSec:1573647317,
+          deviceUsec:22423 }
+   -
+      grabNumber: 6826
+      grabMsec: 22177
+      nearImage: { grabNumber:66, grabMsec:22052, deviceSec:1573647317,
+          deviceUsec:26797 }
+   -
+      grabNumber: 6841
+      grabMsec: 22193
+      centerImage: { grabNumber:70, grabMsec:22073, deviceSec:1573647317,
+          deviceUsec:56977 }
+   -
+      grabNumber: 6851
+      grabMsec: 22204
+      emlidLeft: { grabNumber:70, grabMsec:22200, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405831761666668e+01,
+          east:4.1234621171666667e+01, alt:1.4513100000000000e+02,
+          speed:1.5217266666666665e+01, vf:0., vl:0., vu:0.,
+          yaw:4.5640359939651698e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:17+03:00" } }
+   -
+      grabNumber: 6864
+      grabMsec: 22217
+      eleftImage: { grabNumber:92, grabMsec:22213, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6914
+      grabMsec: 22271
+      leftImage: { grabNumber:71, grabMsec:22154, deviceSec:1573647317,
+          deviceUsec:132029 }
+   -
+      grabNumber: 6916
+      grabMsec: 22273
+      dbwFbLoco: { grabNumber:94, grabMsec:22271, deviceSec:0,
+          deviceUsec:11886942, vehicleCanData:{ shootNumber:110,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11886942, m_speed:54.,
+          m_path:28501, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 6923
+      grabMsec: 22280
+      nearImage: { grabNumber:67, grabMsec:22174, deviceSec:1573647317,
+          deviceUsec:142174 }
+   -
+      grabNumber: 6938
+      grabMsec: 22296
+      eleftImage: { grabNumber:93, grabMsec:22292, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 6943
+      grabMsec: 22301
+      centerImage: { grabNumber:71, grabMsec:22189, deviceSec:1573647317,
+          deviceUsec:160650 }
+   -
+      grabNumber: 7014
+      grabMsec: 22377
+      leftImage: { grabNumber:72, grabMsec:22264, deviceSec:1573647317,
+          deviceUsec:241648 }
+   -
+      grabNumber: 7018
+      grabMsec: 22389
+      eleftImage: { grabNumber:94, grabMsec:22383, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7022
+      grabMsec: 22393
+      nearImage: { grabNumber:68, grabMsec:22273, deviceSec:1573647317,
+          deviceUsec:257553 }
+   -
+      grabNumber: 7026
+      grabMsec: 22398
+      emlidLeft: { grabNumber:71, grabMsec:22396, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405844191666667e+01,
+          east:4.1234668716666661e+01, alt:1.4508000000000001e+02,
+          speed:1.5181255555555556e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7455502361725821e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:17.020+03:00" } }
+   -
+      grabNumber: 7033
+      grabMsec: 22405
+      centerImage: { grabNumber:72, grabMsec:22295, deviceSec:1573647317,
+          deviceUsec:270248 }
+   -
+      grabNumber: 7037
+      grabMsec: 22425
+      dbwFbLoco: { grabNumber:95, grabMsec:22424, deviceSec:0,
+          deviceUsec:11886942, vehicleCanData:{ shootNumber:111,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11886942, m_speed:54.,
+          m_path:28501, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 7079
+      grabMsec: 22471
+      eleftImage: { grabNumber:95, grabMsec:22468, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7114
+      grabMsec: 22508
+      nearImage: { grabNumber:69, grabMsec:22389, deviceSec:1573647317,
+          deviceUsec:372921 }
+   -
+      grabNumber: 7120
+      grabMsec: 22515
+      centerImage: { grabNumber:73, grabMsec:22402, deviceSec:1573647317,
+          deviceUsec:379867 }
+   -
+      grabNumber: 7155
+      grabMsec: 22552
+      eleftImage: { grabNumber:96, grabMsec:22548, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7177
+      grabMsec: 22576
+      dbwFbLoco: { grabNumber:96, grabMsec:22574, deviceSec:0,
+          deviceUsec:11886942, vehicleCanData:{ shootNumber:112,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11886942, m_speed:54.,
+          m_path:28501, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 7193
+      grabMsec: 22592
+      emlidLeft: { grabNumber:72, grabMsec:22590, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405856728333340e+01,
+          east:4.1234715288333334e+01, alt:1.4505099999999999e+02,
+          speed:1.5325300000000000e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6286131762889626e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:17.040+03:00" } }
+   -
+      grabNumber: 7196
+      grabMsec: 22596
+      leftImage: { grabNumber:73, grabMsec:22479, deviceSec:1573647317,
+          deviceUsec:460890 }
+   -
+      grabNumber: 7228
+      grabMsec: 22630
+      centerImage: { grabNumber:74, grabMsec:22512, deviceSec:1573647317,
+          deviceUsec:489479 }
+      nearImage: { grabNumber:70, grabMsec:22504, deviceSec:1573647317,
+          deviceUsec:488258 }
+   -
+      grabNumber: 7231
+      grabMsec: 22633
+      eleftImage: { grabNumber:97, grabMsec:22624, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7299
+      grabMsec: 22705
+      leftImage: { grabNumber:74, grabMsec:22592, deviceSec:1573647317,
+          deviceUsec:570507 }
+   -
+      grabNumber: 7308
+      grabMsec: 22714
+      eleftImage: { grabNumber:98, grabMsec:22710, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7318
+      grabMsec: 22725
+      dbwFbLoco: { grabNumber:97, grabMsec:22724, deviceSec:0,
+          deviceUsec:11886942, vehicleCanData:{ shootNumber:113,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11886942, m_speed:54.,
+          m_path:28501, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 7329
+      grabMsec: 22737
+      centerImage: { grabNumber:75, grabMsec:22621, deviceSec:1573647317,
+          deviceUsec:599094 }
+   -
+      grabNumber: 7332
+      grabMsec: 22740
+      nearImage: { grabNumber:71, grabMsec:22619, deviceSec:1573647317,
+          deviceUsec:603633 }
+   -
+      grabNumber: 7394
+      grabMsec: 22805
+      emlidLeft: { grabNumber:73, grabMsec:22802, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405868991666665e+01,
+          east:4.1234761993333329e+01, alt:1.4501499999999999e+02,
+          speed:1.5242988888888888e+01, vf:0., vl:0., vu:0.,
+          yaw:4.4889868361294138e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:17.060+03:00" } }
+   -
+      grabNumber: 7406
+      grabMsec: 22818
+      leftImage: { grabNumber:75, grabMsec:22701, deviceSec:1573647317,
+          deviceUsec:680137 }
+      eleftImage: { grabNumber:99, grabMsec:22814, deviceSec:1573647317,
+          deviceUsec:680137 }
+   -
+      grabNumber: 7432
+      grabMsec: 22846
+      centerImage: { grabNumber:76, grabMsec:22730, deviceSec:1573647317,
+          deviceUsec:710760 }
+   -
+      grabNumber: 7439
+      grabMsec: 22853
+      nearImage: { grabNumber:72, grabMsec:22734, deviceSec:1573647317,
+          deviceUsec:719004 }
+   -
+      grabNumber: 7459
+      grabMsec: 22874
+      dbwFbLoco: { grabNumber:98, grabMsec:22872, deviceSec:0,
+          deviceUsec:11886942, vehicleCanData:{ shootNumber:114,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11886942, m_speed:54.,
+          m_path:28501, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 7464
+      grabMsec: 22880
+      eleftImage: { grabNumber:100, grabMsec:22876, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7506
+      grabMsec: 22924
+      leftImage: { grabNumber:76, grabMsec:22813, deviceSec:1573647317,
+          deviceUsec:789749 }
+   -
+      grabNumber: 7533
+      grabMsec: 22953
+      centerImage: { grabNumber:77, grabMsec:22842, deviceSec:1573647317,
+          deviceUsec:818325 }
+   -
+      grabNumber: 7544
+      grabMsec: 22964
+      eleftImage: { grabNumber:101, grabMsec:22959, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7551
+      grabMsec: 22972
+      nearImage: { grabNumber:73, grabMsec:22849, deviceSec:1573647317,
+          deviceUsec:834378 }
+   -
+      grabNumber: 7587
+      grabMsec: 23010
+      emlidLeft: { grabNumber:74, grabMsec:23007, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405881406666673e+01,
+          east:4.1234808626666670e+01, alt:1.4499500000000000e+02,
+          speed:1.5273855555555556e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6478117980608991e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:17.080+03:00" } }
+   -
+      grabNumber: 7601
+      grabMsec: 23025
+      dbwFbLoco: { grabNumber:99, grabMsec:23023, deviceSec:0,
+          deviceUsec:11886942, vehicleCanData:{ shootNumber:115,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:54., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11886942, m_speed:54.,
+          m_path:28501, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 7612
+      grabMsec: 23036
+      leftImage: { grabNumber:77, grabMsec:22921, deviceSec:1573647317,
+          deviceUsec:899326 }
+   -
+      grabNumber: 7623
+      grabMsec: 23048
+      eleftImage: { grabNumber:102, grabMsec:23043, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7638
+      grabMsec: 23064
+      centerImage: { grabNumber:78, grabMsec:22949, deviceSec:1573647317,
+          deviceUsec:927941 }
+   -
+      grabNumber: 7656
+      grabMsec: 23083
+      nearImage: { grabNumber:74, grabMsec:22966, deviceSec:1573647317,
+          deviceUsec:949729 }
+   -
+      grabNumber: 7699
+      grabMsec: 23129
+      eleftImage: { grabNumber:103, grabMsec:23125, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7715
+      grabMsec: 23146
+      leftImage: { grabNumber:78, grabMsec:23031, deviceSec:1573647318,
+          deviceUsec:8954 }
+   -
+      grabNumber: 7740
+      grabMsec: 23172
+      centerImage: { grabNumber:79, grabMsec:23059, deviceSec:1573647318,
+          deviceUsec:37558 }
+   -
+      grabNumber: 7742
+      grabMsec: 23174
+      dbwFbLoco: { grabNumber:100, grabMsec:23173, deviceSec:0,
+          deviceUsec:11887943, vehicleCanData:{ shootNumber:116,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11887943, m_speed:5.4500000000000000e+01,
+          m_path:28501, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 7765
+      grabMsec: 23199
+      nearImage: { grabNumber:75, grabMsec:23080, deviceSec:1573647318,
+          deviceUsec:65103 }
+   -
+      grabNumber: 7771
+      grabMsec: 23205
+      emlidLeft: { grabNumber:75, grabMsec:23201, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405893941666669e+01,
+          east:4.1234855148333324e+01, alt:1.4496799999999999e+02,
+          speed:1.5268711111111111e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7263516144006434e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:18+03:00" } }
+   -
+      grabNumber: 7782
+      grabMsec: 23217
+      eleftImage: { grabNumber:104, grabMsec:23211, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7819
+      grabMsec: 23256
+      leftImage: { grabNumber:79, grabMsec:23142, deviceSec:1573647318,
+          deviceUsec:118550 }
+   -
+      grabNumber: 7843
+      grabMsec: 23281
+      centerImage: { grabNumber:80, grabMsec:23168, deviceSec:1573647318,
+          deviceUsec:147174 }
+   -
+      grabNumber: 7861
+      grabMsec: 23300
+      eleftImage: { grabNumber:105, grabMsec:23294, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7878
+      grabMsec: 23318
+      nearImage: { grabNumber:76, grabMsec:23195, deviceSec:1573647318,
+          deviceUsec:180477 }
+   -
+      grabNumber: 7884
+      grabMsec: 23325
+      dbwFbLoco: { grabNumber:101, grabMsec:23323, deviceSec:0,
+          deviceUsec:11887943, vehicleCanData:{ shootNumber:117,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11887943, m_speed:5.4500000000000000e+01,
+          m_path:28513, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 7920
+      grabMsec: 23363
+      leftImage: { grabNumber:80, grabMsec:23250, deviceSec:1573647318,
+          deviceUsec:228161 }
+   -
+      grabNumber: 7939
+      grabMsec: 23383
+      eleftImage: { grabNumber:106, grabMsec:23379, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 7946
+      grabMsec: 23391
+      centerImage: { grabNumber:81, grabMsec:23279, deviceSec:1573647318,
+          deviceUsec:256791 }
+   -
+      grabNumber: 7964
+      grabMsec: 23410
+      emlidLeft: { grabNumber:76, grabMsec:23407, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405907065000001e+01,
+          east:4.1234901716666670e+01, alt:1.4488700000000000e+02,
+          speed:1.5242988888888888e+01, vf:0., vl:0., vu:0.,
+          yaw:4.8345620280242940e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:18.020+03:00" } }
+   -
+      grabNumber: 7982
+      grabMsec: 23429
+      nearImage: { grabNumber:77, grabMsec:23311, deviceSec:1573647318,
+          deviceUsec:295840 }
+   -
+      grabNumber: 8015
+      grabMsec: 23464
+      eleftImage: { grabNumber:107, grabMsec:23459, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8026
+      grabMsec: 23476
+      leftImage: { grabNumber:81, grabMsec:23359, deviceSec:1573647318,
+          deviceUsec:337769 }
+      dbwFbLoco: { grabNumber:102, grabMsec:23473, deviceSec:0,
+          deviceUsec:11887943, vehicleCanData:{ shootNumber:118,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11887943, m_speed:5.4500000000000000e+01,
+          m_path:28513, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 8049
+      grabMsec: 23500
+      centerImage: { grabNumber:82, grabMsec:23387, deviceSec:1573647318,
+          deviceUsec:366397 }
+   -
+      grabNumber: 8093
+      grabMsec: 23546
+      nearImage: { grabNumber:78, grabMsec:23426, deviceSec:1573647318,
+          deviceUsec:411216 }
+   -
+      grabNumber: 8096
+      grabMsec: 23550
+      eleftImage: { grabNumber:108, grabMsec:23546, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8126
+      grabMsec: 23581
+      leftImage: { grabNumber:82, grabMsec:23471, deviceSec:1573647318,
+          deviceUsec:447441 }
+   -
+      grabNumber: 8153
+      grabMsec: 23610
+      centerImage: { grabNumber:83, grabMsec:23497, deviceSec:1573647318,
+          deviceUsec:476042 }
+   -
+      grabNumber: 8163
+      grabMsec: 23621
+      emlidLeft: { grabNumber:77, grabMsec:23618, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405918778333337e+01,
+          east:4.1234948349999996e+01, alt:1.4497300000000001e+02,
+          speed:1.5284144444444445e+01, vf:0., vl:0., vu:0.,
+          yaw:4.5884706034930933e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:18.040+03:00" } }
+   -
+      grabNumber: 8167
+      grabMsec: 23625
+      dbwFbLoco: { grabNumber:103, grabMsec:23623, deviceSec:0,
+          deviceUsec:11887943, vehicleCanData:{ shootNumber:119,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11887943, m_speed:5.4500000000000000e+01,
+          m_path:28513, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 8174
+      grabMsec: 23632
+      eleftImage: { grabNumber:109, grabMsec:23628, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8200
+      grabMsec: 23660
+      nearImage: { grabNumber:79, grabMsec:23542, deviceSec:1573647318,
+          deviceUsec:526589 }
+   -
+      grabNumber: 8229
+      grabMsec: 23691
+      leftImage: { grabNumber:83, grabMsec:23579, deviceSec:1573647318,
+          deviceUsec:557053 }
+   -
+      grabNumber: 8252
+      grabMsec: 23715
+      eleftImage: { grabNumber:110, grabMsec:23711, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8256
+      grabMsec: 23720
+      centerImage: { grabNumber:84, grabMsec:23606, deviceSec:1573647318,
+          deviceUsec:585651 }
+   -
+      grabNumber: 8308
+      grabMsec: 23776
+      dbwFbLoco: { grabNumber:104, grabMsec:23774, deviceSec:0,
+          deviceUsec:11887943, vehicleCanData:{ shootNumber:120,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11887943, m_speed:5.4500000000000000e+01,
+          m_path:28513, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 8335
+      grabMsec: 23804
+      leftImage: { grabNumber:84, grabMsec:23688, deviceSec:1573647318,
+          deviceUsec:666665 }
+   -
+      grabNumber: 8346
+      grabMsec: 23816
+      eleftImage: { grabNumber:111, grabMsec:23812, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8348
+      grabMsec: 23818
+      emlidLeft: { grabNumber:78, grabMsec:23814, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405931228333337e+01,
+          east:4.1234994951666671e+01, alt:1.4496799999999999e+02,
+          speed:1.5279000000000000e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6757370660928088e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:18.060+03:00" } }
+   -
+      grabNumber: 8359
+      grabMsec: 23830
+      centerImage: { grabNumber:85, grabMsec:23717, deviceSec:1573647318,
+          deviceUsec:695263 }
+   -
+      grabNumber: 8405
+      grabMsec: 23879
+      eleftImage: { grabNumber:112, grabMsec:23875, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8418
+      grabMsec: 23893
+      nearImage: { grabNumber:80, grabMsec:23769, deviceSec:1573647318,
+          deviceUsec:757322 }
+   -
+      grabNumber: 8435
+      grabMsec: 23911
+      leftImage: { grabNumber:85, grabMsec:23799, deviceSec:1573647318,
+          deviceUsec:776278 }
+   -
+      grabNumber: 8449
+      grabMsec: 23925
+      dbwFbLoco: { grabNumber:105, grabMsec:23923, deviceSec:0,
+          deviceUsec:11887943, vehicleCanData:{ shootNumber:121,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11887943, m_speed:5.4500000000000000e+01,
+          m_path:28513, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 8461
+      grabMsec: 23938
+      centerImage: { grabNumber:86, grabMsec:23826, deviceSec:1573647318,
+          deviceUsec:804876 }
+   -
+      grabNumber: 8484
+      grabMsec: 23963
+      eleftImage: { grabNumber:113, grabMsec:23958, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8527
+      grabMsec: 24008
+      nearImage: { grabNumber:81, grabMsec:23888, deviceSec:1573647318,
+          deviceUsec:872696 }
+   -
+      grabNumber: 8531
+      grabMsec: 24012
+      emlidLeft: { grabNumber:79, grabMsec:24009, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405943618333339e+01,
+          east:4.1235041688333332e+01, alt:1.4495599999999999e+02,
+          speed:1.5309866666666668e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6129052130210124e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:18.080+03:00" } }
+   -
+      grabNumber: 8539
+      grabMsec: 24021
+      leftImage: { grabNumber:86, grabMsec:23907, deviceSec:1573647318,
+          deviceUsec:885889 }
+   -
+      grabNumber: 8564
+      grabMsec: 24047
+      eleftImage: { grabNumber:114, grabMsec:24044, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8567
+      grabMsec: 24051
+      centerImage: { grabNumber:87, grabMsec:23935, deviceSec:1573647318,
+          deviceUsec:914492 }
+   -
+      grabNumber: 8591
+      grabMsec: 24076
+      dbwFbLoco: { grabNumber:106, grabMsec:24074, deviceSec:0,
+          deviceUsec:11888946, vehicleCanData:{ shootNumber:122,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11888946, m_speed:5.4500000000000000e+01,
+          m_path:28513, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 8635
+      grabMsec: 24123
+      nearImage: { grabNumber:82, grabMsec:24003, deviceSec:1573647318,
+          deviceUsec:988071 }
+   -
+      grabNumber: 8642
+      grabMsec: 24130
+      leftImage: { grabNumber:87, grabMsec:24016, deviceSec:1573647318,
+          deviceUsec:995507 }
+      eleftImage: { grabNumber:115, grabMsec:24125, deviceSec:1573647318,
+          deviceUsec:995507 }
+   -
+      grabNumber: 8669
+      grabMsec: 24159
+      centerImage: { grabNumber:88, grabMsec:24045, deviceSec:1573647319,
+          deviceUsec:24108 }
+   -
+      grabNumber: 8707
+      grabMsec: 24199
+      emlidLeft: { grabNumber:80, grabMsec:24196, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405956063333328e+01,
+          east:4.1235088445000002e+01, alt:1.4494100000000000e+02,
+          speed:1.5325300000000000e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6530477858168817e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:19+03:00" } }
+   -
+      grabNumber: 8722
+      grabMsec: 24215
+      eleftImage: { grabNumber:116, grabMsec:24211, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8732
+      grabMsec: 24226
+      dbwFbLoco: { grabNumber:107, grabMsec:24224, deviceSec:0,
+          deviceUsec:11888946, vehicleCanData:{ shootNumber:123,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11888946, m_speed:5.4500000000000000e+01,
+          m_path:28513, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 8745
+      grabMsec: 24240
+      leftImage: { grabNumber:88, grabMsec:24126, deviceSec:1573647319,
+          deviceUsec:105119 }
+      nearImage: { grabNumber:83, grabMsec:24118, deviceSec:1573647319,
+          deviceUsec:103447 }
+   -
+      grabNumber: 8771
+      grabMsec: 24267
+      centerImage: { grabNumber:89, grabMsec:24154, deviceSec:1573647319,
+          deviceUsec:133725 }
+   -
+      grabNumber: 8798
+      grabMsec: 24296
+      eleftImage: { grabNumber:117, grabMsec:24292, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8848
+      grabMsec: 24349
+      leftImage: { grabNumber:89, grabMsec:24236, deviceSec:1573647319,
+          deviceUsec:214748 }
+   -
+      grabNumber: 8851
+      grabMsec: 24352
+      nearImage: { grabNumber:84, grabMsec:24234, deviceSec:1573647319,
+          deviceUsec:218766 }
+   -
+      grabNumber: 8873
+      grabMsec: 24375
+      dbwFbLoco: { grabNumber:108, grabMsec:24374, deviceSec:0,
+          deviceUsec:11888946, vehicleCanData:{ shootNumber:124,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11888946, m_speed:5.4500000000000000e+01,
+          m_path:28525, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 8875
+      grabMsec: 24378
+      centerImage: { grabNumber:90, grabMsec:24264, deviceSec:1573647319,
+          deviceUsec:243334 }
+   -
+      grabNumber: 8880
+      grabMsec: 24383
+      eleftImage: { grabNumber:118, grabMsec:24379, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8908
+      grabMsec: 24413
+      emlidLeft: { grabNumber:81, grabMsec:24410, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405968473333331e+01,
+          east:4.1235135006666660e+01, alt:1.4494300000000001e+02,
+          speed:1.5201833333333335e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6652650905808413e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:19.020+03:00" } }
+   -
+      grabNumber: 8953
+      grabMsec: 24460
+      leftImage: { grabNumber:90, grabMsec:24345, deviceSec:1573647319,
+          deviceUsec:324332 }
+   -
+      grabNumber: 8956
+      grabMsec: 24464
+      eleftImage: { grabNumber:119, grabMsec:24460, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 8961
+      grabMsec: 24469
+      nearImage: { grabNumber:85, grabMsec:24349, deviceSec:1573647319,
+          deviceUsec:334145 }
+   -
+      grabNumber: 8979
+      grabMsec: 24488
+      centerImage: { grabNumber:91, grabMsec:24375, deviceSec:1573647319,
+          deviceUsec:352949 }
+   -
+      grabNumber: 9014
+      grabMsec: 24525
+      dbwFbLoco: { grabNumber:109, grabMsec:24524, deviceSec:0,
+          deviceUsec:11888946, vehicleCanData:{ shootNumber:125,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11888946, m_speed:5.4500000000000000e+01,
+          m_path:28525, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 9037
+      grabMsec: 24550
+      eleftImage: { grabNumber:120, grabMsec:24546, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9058
+      grabMsec: 24572
+      leftImage: { grabNumber:91, grabMsec:24456, deviceSec:1573647319,
+          deviceUsec:433987 }
+   -
+      grabNumber: 9070
+      grabMsec: 24585
+      nearImage: { grabNumber:86, grabMsec:24465, deviceSec:1573647319,
+          deviceUsec:449526 }
+   -
+      grabNumber: 9083
+      grabMsec: 24599
+      centerImage: { grabNumber:92, grabMsec:24485, deviceSec:1573647319,
+          deviceUsec:462573 }
+   -
+      grabNumber: 9097
+      grabMsec: 24613
+      emlidLeft: { grabNumber:82, grabMsec:24610, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405981034999996e+01,
+          east:4.1235181519999998e+01, alt:1.4492400000000001e+02,
+          speed:1.5273855555555556e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6827183831007857e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:19.040+03:00" } }
+   -
+      grabNumber: 9114
+      grabMsec: 24632
+      eleftImage: { grabNumber:121, grabMsec:24628, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9157
+      grabMsec: 24677
+      leftImage: { grabNumber:92, grabMsec:24568, deviceSec:1573647319,
+          deviceUsec:543578 }
+      dbwFbLoco: { grabNumber:110, grabMsec:24675, deviceSec:0,
+          deviceUsec:11888946, vehicleCanData:{ shootNumber:126,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11888946, m_speed:5.4500000000000000e+01,
+          m_path:28525, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 9179
+      grabMsec: 24701
+      nearImage: { grabNumber:87, grabMsec:24581, deviceSec:1573647319,
+          deviceUsec:564880 }
+   -
+      grabNumber: 9184
+      grabMsec: 24706
+      centerImage: { grabNumber:93, grabMsec:24595, deviceSec:1573647319,
+          deviceUsec:572185 }
+   -
+      grabNumber: 9193
+      grabMsec: 24715
+      eleftImage: { grabNumber:122, grabMsec:24711, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9260
+      grabMsec: 24786
+      leftImage: { grabNumber:93, grabMsec:24674, deviceSec:1573647319,
+          deviceUsec:653194 }
+   -
+      grabNumber: 9288
+      grabMsec: 24816
+      eleftImage: { grabNumber:123, grabMsec:24811, deviceSec:0,
+          deviceUsec:5 }
+      emlidLeft: { grabNumber:83, grabMsec:24810, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8405993541666675e+01,
+          east:4.1235228153333338e+01, alt:1.4490799999999999e+02,
+          speed:1.5289288888888889e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6652650905808413e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:5,
+          timestamp:"2019-11-13T12:15:19.060+03:00" } }
+   -
+      grabNumber: 9291
+      grabMsec: 24819
+      centerImage: { grabNumber:94, grabMsec:24703, deviceSec:1573647319,
+          deviceUsec:681798 }
+      nearImage: { grabNumber:88, grabMsec:24696, deviceSec:1573647319,
+          deviceUsec:680253 }
+   -
+      grabNumber: 9292
+      grabMsec: 24825
+      dbwFbLoco: { grabNumber:111, grabMsec:24824, deviceSec:0,
+          deviceUsec:11888946, vehicleCanData:{ shootNumber:127,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11888946, m_speed:5.4500000000000000e+01,
+          m_path:28525, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 9337
+      grabMsec: 24882
+      eleftImage: { grabNumber:124, grabMsec:24878, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9353
+      grabMsec: 24899
+      leftImage: { grabNumber:94, grabMsec:24784, deviceSec:1573647319,
+          deviceUsec:762809 }
+   -
+      grabNumber: 9378
+      grabMsec: 24925
+      centerImage: { grabNumber:95, grabMsec:24813, deviceSec:1573647319,
+          deviceUsec:791419 }
+   -
+      grabNumber: 9411
+      grabMsec: 24960
+      eleftImage: { grabNumber:125, grabMsec:24957, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9427
+      grabMsec: 24977
+      dbwFbLoco: { grabNumber:112, grabMsec:24976, deviceSec:0,
+          deviceUsec:11888946, vehicleCanData:{ shootNumber:128,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11888946, m_speed:5.4500000000000000e+01,
+          m_path:28525, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 9455
+      grabMsec: 25007
+      leftImage: { grabNumber:95, grabMsec:24895, deviceSec:1573647319,
+          deviceUsec:872411 }
+   -
+      grabNumber: 9459
+      grabMsec: 25011
+      emlidLeft: { grabNumber:84, grabMsec:25009, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406005669999999e+01,
+          east:4.1235275320000000e+01, alt:1.4492400000000001e+02,
+          speed:1.5315011111111110e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6844637123527821e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:19.080+03:00" } }
+   -
+      grabNumber: 9482
+      grabMsec: 25036
+      centerImage: { grabNumber:96, grabMsec:24922, deviceSec:1573647319,
+          deviceUsec:901031 }
+   -
+      grabNumber: 9490
+      grabMsec: 25044
+      nearImage: { grabNumber:89, grabMsec:24922, deviceSec:1573647319,
+          deviceUsec:910979 }
+   -
+      grabNumber: 9495
+      grabMsec: 25050
+      eleftImage: { grabNumber:126, grabMsec:25046, deviceSec:0,
+          deviceUsec:0 }
+   -
+      grabNumber: 9560
+      grabMsec: 25119
+      leftImage: { grabNumber:96, grabMsec:25004, deviceSec:1573647319,
+          deviceUsec:982066 }
+   -
+      grabNumber: 9569
+      grabMsec: 25128
+      dbwFbLoco: { grabNumber:113, grabMsec:25126, deviceSec:0,
+          deviceUsec:11889947, vehicleCanData:{ shootNumber:129,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11889947, m_speed:5.4500000000000000e+01,
+          m_path:28525, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+      eleftImage: { grabNumber:127, grabMsec:25124, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9584
+      grabMsec: 25144
+      centerImage: { grabNumber:97, grabMsec:25031, deviceSec:1573647320,
+          deviceUsec:10647 }
+   -
+      grabNumber: 9600
+      grabMsec: 25161
+      nearImage: { grabNumber:90, grabMsec:25042, deviceSec:1573647320,
+          deviceUsec:26354 }
+   -
+      grabNumber: 9653
+      grabMsec: 25217
+      eleftImage: { grabNumber:128, grabMsec:25212, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9657
+      grabMsec: 25221
+      emlidLeft: { grabNumber:85, grabMsec:25220, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406018140000000e+01,
+          east:4.1235321956666667e+01, alt:1.4493500000000000e+02,
+          speed:1.5304722222222223e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7525315531805590e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:20+03:00" } }
+   -
+      grabNumber: 9662
+      grabMsec: 25227
+      leftImage: { grabNumber:97, grabMsec:25112, deviceSec:1573647320,
+          deviceUsec:91676 }
+   -
+      grabNumber: 9688
+      grabMsec: 25254
+      centerImage: { grabNumber:98, grabMsec:25141, deviceSec:1573647320,
+          deviceUsec:120261 }
+   -
+      grabNumber: 9708
+      grabMsec: 25275
+      nearImage: { grabNumber:91, grabMsec:25156, deviceSec:1573647320,
+          deviceUsec:141718 }
+   -
+      grabNumber: 9710
+      grabMsec: 25278
+      dbwFbLoco: { grabNumber:114, grabMsec:25276, deviceSec:0,
+          deviceUsec:11889947, vehicleCanData:{ shootNumber:130,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11889947, m_speed:5.4500000000000000e+01,
+          m_path:28538, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 9727
+      grabMsec: 25296
+      eleftImage: { grabNumber:129, grabMsec:25291, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9764
+      grabMsec: 25335
+      leftImage: { grabNumber:98, grabMsec:25222, deviceSec:1573647320,
+          deviceUsec:201281 }
+   -
+      grabNumber: 9792
+      grabMsec: 25364
+      centerImage: { grabNumber:99, grabMsec:25251, deviceSec:1573647320,
+          deviceUsec:229880 }
+   -
+      grabNumber: 9810
+      grabMsec: 25383
+      eleftImage: { grabNumber:130, grabMsec:25378, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9817
+      grabMsec: 25391
+      nearImage: { grabNumber:92, grabMsec:25272, deviceSec:1573647320,
+          deviceUsec:257093 }
+   -
+      grabNumber: 9837
+      grabMsec: 25412
+      emlidLeft: { grabNumber:86, grabMsec:25409, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406030476666665e+01,
+          east:4.1235368524999998e+01, alt:1.4494700000000000e+02,
+          speed:1.5196688888888890e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6338491640449453e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:20.020+03:00" } }
+   -
+      grabNumber: 9851
+      grabMsec: 25427
+      dbwFbLoco: { grabNumber:115, grabMsec:25425, deviceSec:0,
+          deviceUsec:11889947, vehicleCanData:{ shootNumber:131,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11889947, m_speed:5.4500000000000000e+01,
+          m_path:28538, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 9867
+      grabMsec: 25444
+      leftImage: { grabNumber:99, grabMsec:25332, deviceSec:1573647320,
+          deviceUsec:310885 }
+   -
+      grabNumber: 9886
+      grabMsec: 25464
+      eleftImage: { grabNumber:131, grabMsec:25459, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9895
+      grabMsec: 25473
+      centerImage: { grabNumber:100, grabMsec:25360,
+          deviceSec:1573647320, deviceUsec:339485 }
+   -
+      grabNumber: 9925
+      grabMsec: 25505
+      nearImage: { grabNumber:93, grabMsec:25387, deviceSec:1573647320,
+          deviceUsec:372452 }
+   -
+      grabNumber: 9964
+      grabMsec: 25546
+      eleftImage: { grabNumber:132, grabMsec:25543, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 9971
+      grabMsec: 25554
+      leftImage: { grabNumber:100, grabMsec:25441, deviceSec:1573647320,
+          deviceUsec:420500 }
+   -
+      grabNumber: 9993
+      grabMsec: 25577
+      dbwFbLoco: { grabNumber:116, grabMsec:25575, deviceSec:0,
+          deviceUsec:11889947, vehicleCanData:{ shootNumber:132,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11889947, m_speed:5.4500000000000000e+01,
+          m_path:28538, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 9999
+      grabMsec: 25584
+      centerImage: { grabNumber:101, grabMsec:25470,
+          deviceSec:1573647320, deviceUsec:449109 }
+   -
+      grabNumber: 10031
+      grabMsec: 25617
+      emlidLeft: { grabNumber:87, grabMsec:25616, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406042858333329e+01,
+          east:4.1235414991666659e+01, alt:1.4496199999999999e+02,
+          speed:1.5212122222222222e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7054076633767128e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:20.040+03:00" } }
+   -
+      grabNumber: 10036
+      grabMsec: 25623
+      nearImage: { grabNumber:94, grabMsec:25502, deviceSec:1573647320,
+          deviceUsec:487827 }
+   -
+      grabNumber: 10041
+      grabMsec: 25628
+      eleftImage: { grabNumber:133, grabMsec:25624, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10075
+      grabMsec: 25664
+      leftImage: { grabNumber:101, grabMsec:25551, deviceSec:1573647320,
+          deviceUsec:530109 }
+   -
+      grabNumber: 10102
+      grabMsec: 25693
+      centerImage: { grabNumber:102, grabMsec:25580,
+          deviceSec:1573647320, deviceUsec:558748 }
+   -
+      grabNumber: 10125
+      grabMsec: 25717
+      eleftImage: { grabNumber:134, grabMsec:25712, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10135
+      grabMsec: 25728
+      dbwFbLoco: { grabNumber:117, grabMsec:25726, deviceSec:0,
+          deviceUsec:11889947, vehicleCanData:{ shootNumber:133,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11889947, m_speed:5.4500000000000000e+01,
+          m_path:28538, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 10143
+      grabMsec: 25736
+      nearImage: { grabNumber:95, grabMsec:25618, deviceSec:1573647320,
+          deviceUsec:603199 }
+   -
+      grabNumber: 10178
+      grabMsec: 25773
+      leftImage: { grabNumber:102, grabMsec:25660, deviceSec:1573647320,
+          deviceUsec:639724 }
+   -
+      grabNumber: 10206
+      grabMsec: 25803
+      centerImage: { grabNumber:103, grabMsec:25689,
+          deviceSec:1573647320, deviceUsec:668346 }
+   -
+      grabNumber: 10215
+      grabMsec: 25812
+      eleftImage: { grabNumber:135, grabMsec:25809, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10219
+      grabMsec: 25817
+      emlidLeft: { grabNumber:88, grabMsec:25814, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406055266666662e+01,
+          east:4.1235461438333338e+01, alt:1.4497700000000000e+02,
+          speed:1.5237844444444447e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7280969436526399e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:20.060+03:00" } }
+   -
+      grabNumber: 10254
+      grabMsec: 25854
+      nearImage: { grabNumber:96, grabMsec:25733, deviceSec:1573647320,
+          deviceUsec:718575 }
+   -
+      grabNumber: 10276
+      grabMsec: 25877
+      dbwFbLoco: { grabNumber:118, grabMsec:25875, deviceSec:0,
+          deviceUsec:11889947, vehicleCanData:{ shootNumber:134,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11889947, m_speed:5.4500000000000000e+01,
+          m_path:28538, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 10283
+      grabMsec: 25884
+      leftImage: { grabNumber:103, grabMsec:25770, deviceSec:1573647320,
+          deviceUsec:749341 }
+      eleftImage: { grabNumber:136, grabMsec:25879, deviceSec:1573647320,
+          deviceUsec:749341 }
+   -
+      grabNumber: 10309
+      grabMsec: 25912
+      centerImage: { grabNumber:104, grabMsec:25799,
+          deviceSec:1573647320, deviceUsec:777958 }
+   -
+      grabNumber: 10357
+      grabMsec: 25963
+      eleftImage: { grabNumber:137, grabMsec:25958, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10362
+      grabMsec: 25968
+      nearImage: { grabNumber:97, grabMsec:25848, deviceSec:1573647320,
+          deviceUsec:833954 }
+   -
+      grabNumber: 10384
+      grabMsec: 25992
+      leftImage: { grabNumber:104, grabMsec:25880, deviceSec:1573647320,
+          deviceUsec:858958 }
+   -
+      grabNumber: 10400
+      grabMsec: 26008
+      emlidLeft: { grabNumber:89, grabMsec:26006, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406067610000008e+01,
+          east:4.1235508113333331e+01, alt:1.4499199999999999e+02,
+          speed:1.5320155555555557e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6233771885329800e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:20.080+03:00" } }
+   -
+      grabNumber: 10413
+      grabMsec: 26022
+      centerImage: { grabNumber:105, grabMsec:25908,
+          deviceSec:1573647320, deviceUsec:887575 }
+   -
+      grabNumber: 10417
+      grabMsec: 26026
+      dbwFbLoco: { grabNumber:119, grabMsec:26025, deviceSec:0,
+          deviceUsec:11889947, vehicleCanData:{ shootNumber:135,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11889947, m_speed:5.4500000000000000e+01,
+          m_path:28538, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 10438
+      grabMsec: 26049
+      eleftImage: { grabNumber:138, grabMsec:26045, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10471
+      grabMsec: 26084
+      nearImage: { grabNumber:98, grabMsec:25964, deviceSec:1573647320,
+          deviceUsec:949321 }
+   -
+      grabNumber: 10489
+      grabMsec: 26103
+      leftImage: { grabNumber:105, grabMsec:25989, deviceSec:1573647320,
+          deviceUsec:968574 }
+   -
+      grabNumber: 10514
+      grabMsec: 26129
+      eleftImage: { grabNumber:139, grabMsec:26125, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10517
+      grabMsec: 26132
+      centerImage: { grabNumber:106, grabMsec:26018,
+          deviceSec:1573647320, deviceUsec:997197 }
+   -
+      grabNumber: 10559
+      grabMsec: 26177
+      dbwFbLoco: { grabNumber:120, grabMsec:26175, deviceSec:0,
+          deviceUsec:11890949, vehicleCanData:{ shootNumber:136,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:55., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11890949, m_speed:55.,
+          m_path:28538, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 10579
+      grabMsec: 26198
+      nearImage: { grabNumber:99, grabMsec:26079, deviceSec:1573647321,
+          deviceUsec:64689 }
+   -
+      grabNumber: 10589
+      grabMsec: 26209
+      emlidLeft: { grabNumber:90, grabMsec:26205, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406080086666663e+01,
+          east:4.1235554649999997e+01, alt:1.4500500000000000e+02,
+          speed:1.5268711111111111e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7647488579445185e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:21+03:00" } }
+   -
+      grabNumber: 10592
+      grabMsec: 26212
+      leftImage: { grabNumber:106, grabMsec:26099, deviceSec:1573647321,
+          deviceUsec:78245 }
+   -
+      grabNumber: 10595
+      grabMsec: 26215
+      eleftImage: { grabNumber:140, grabMsec:26212, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10619
+      grabMsec: 26241
+      centerImage: { grabNumber:107, grabMsec:26128,
+          deviceSec:1573647321, deviceUsec:106826 }
+   -
+      grabNumber: 10674
+      grabMsec: 26299
+      eleftImage: { grabNumber:141, grabMsec:26294, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10689
+      grabMsec: 26315
+      nearImage: { grabNumber:100, grabMsec:26195, deviceSec:1573647321,
+          deviceUsec:180029 }
+   -
+      grabNumber: 10695
+      grabMsec: 26321
+      leftImage: { grabNumber:107, grabMsec:26209, deviceSec:1573647321,
+          deviceUsec:187799 }
+   -
+      grabNumber: 10701
+      grabMsec: 26328
+      dbwFbLoco: { grabNumber:121, grabMsec:26327, deviceSec:0,
+          deviceUsec:11890949, vehicleCanData:{ shootNumber:137,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:55., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11890949, m_speed:55.,
+          m_path:28562, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 10722
+      grabMsec: 26350
+      centerImage: { grabNumber:108, grabMsec:26237,
+          deviceSec:1573647321, deviceUsec:216426 }
+   -
+      grabNumber: 10753
+      grabMsec: 26383
+      eleftImage: { grabNumber:142, grabMsec:26380, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10787
+      grabMsec: 26419
+      emlidLeft: { grabNumber:91, grabMsec:26417, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406092500000007e+01,
+          east:4.1235601128333336e+01, alt:1.4502099999999999e+02,
+          speed:1.5217266666666665e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6984263463687359e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:21.020+03:00" } }
+   -
+      grabNumber: 10798
+      grabMsec: 26431
+      nearImage: { grabNumber:101, grabMsec:26310, deviceSec:1573647321,
+          deviceUsec:295411 }
+   -
+      grabNumber: 10800
+      grabMsec: 26433
+      leftImage: { grabNumber:108, grabMsec:26318, deviceSec:1573647321,
+          deviceUsec:297462 }
+   -
+      grabNumber: 10825
+      grabMsec: 26459
+      centerImage: { grabNumber:109, grabMsec:26347,
+          deviceSec:1573647321, deviceUsec:326034 }
+   -
+      grabNumber: 10836
+      grabMsec: 26471
+      eleftImage: { grabNumber:143, grabMsec:26466, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10842
+      grabMsec: 26477
+      dbwFbLoco: { grabNumber:122, grabMsec:26476, deviceSec:0,
+          deviceUsec:11890949, vehicleCanData:{ shootNumber:138,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:55., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11890949, m_speed:55.,
+          m_path:28562, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 10902
+      grabMsec: 26541
+      leftImage: { grabNumber:109, grabMsec:26429, deviceSec:1573647321,
+          deviceUsec:407089 }
+   -
+      grabNumber: 10907
+      grabMsec: 26547
+      nearImage: { grabNumber:102, grabMsec:26425, deviceSec:1573647321,
+          deviceUsec:410787 }
+   -
+      grabNumber: 10908
+      grabMsec: 26568
+      eleftImage: { grabNumber:144, grabMsec:26547, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10911
+      grabMsec: 26571
+      centerImage: { grabNumber:110, grabMsec:26456,
+          deviceSec:1573647321, deviceUsec:436303 }
+   -
+      grabNumber: 10946
+      grabMsec: 26612
+      emlidLeft: { grabNumber:92, grabMsec:26610, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406104818333340e+01,
+          east:4.1235647665000002e+01, alt:1.4503399999999999e+02,
+          speed:1.5227555555555556e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6338491640449453e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:21.040+03:00" } }
+   -
+      grabNumber: 10960
+      grabMsec: 26627
+      dbwFbLoco: { grabNumber:123, grabMsec:26626, deviceSec:0,
+          deviceUsec:11890949, vehicleCanData:{ shootNumber:139,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:55., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11890949, m_speed:55.,
+          m_path:28562, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 10965
+      grabMsec: 26633
+      eleftImage: { grabNumber:145, grabMsec:26628, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 10982
+      grabMsec: 26651
+      leftImage: { grabNumber:110, grabMsec:26538, deviceSec:1573647321,
+          deviceUsec:516658 }
+   -
+      grabNumber: 10990
+      grabMsec: 26659
+      nearImage: { grabNumber:103, grabMsec:26541, deviceSec:1573647321,
+          deviceUsec:526167 }
+   -
+      grabNumber: 11009
+      grabMsec: 26679
+      centerImage: { grabNumber:111, grabMsec:26567,
+          deviceSec:1573647321, deviceUsec:545276 }
+   -
+      grabNumber: 11044
+      grabMsec: 26717
+      eleftImage: { grabNumber:146, grabMsec:26712, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11087
+      grabMsec: 26762
+      leftImage: { grabNumber:111, grabMsec:26647, deviceSec:1573647321,
+          deviceUsec:626321 }
+   -
+      grabNumber: 11099
+      grabMsec: 26775
+      nearImage: { grabNumber:104, grabMsec:26656, deviceSec:1573647321,
+          deviceUsec:641491 }
+   -
+      grabNumber: 11101
+      grabMsec: 26777
+      dbwFbLoco: { grabNumber:124, grabMsec:26776, deviceSec:0,
+          deviceUsec:11890949, vehicleCanData:{ shootNumber:140,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:55., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11890949, m_speed:55.,
+          m_path:28562, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 11112
+      grabMsec: 26789
+      centerImage: { grabNumber:112, grabMsec:26676,
+          deviceSec:1573647321, deviceUsec:654893 }
+   -
+      grabNumber: 11139
+      grabMsec: 26817
+      eleftImage: { grabNumber:147, grabMsec:26812, deviceSec:0,
+          deviceUsec:5 }
+      emlidLeft: { grabNumber:93, grabMsec:26814, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406117151666663e+01,
+          east:4.1235694251666672e+01, alt:1.4504599999999999e+02,
+          speed:1.5268711111111111e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6705010783368262e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:21.060+03:00" } }
+   -
+      grabNumber: 11189
+      grabMsec: 26870
+      leftImage: { grabNumber:112, grabMsec:26758, deviceSec:1573647321,
+          deviceUsec:735959 }
+   -
+      grabNumber: 11200
+      grabMsec: 26882
+      eleftImage: { grabNumber:148, grabMsec:26878, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11209
+      grabMsec: 26892
+      nearImage: { grabNumber:105, grabMsec:26771, deviceSec:1573647321,
+          deviceUsec:756863 }
+   -
+      grabNumber: 11215
+      grabMsec: 26898
+      centerImage: { grabNumber:113, grabMsec:26785,
+          deviceSec:1573647321, deviceUsec:764505 }
+   -
+      grabNumber: 11243
+      grabMsec: 26928
+      dbwFbLoco: { grabNumber:125, grabMsec:26926, deviceSec:0,
+          deviceUsec:11890949, vehicleCanData:{ shootNumber:141,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0., speed:55., brake:0, kpp:0,
+          light:0, wiper:0 } }, dbw_loco_feedback_data:{ m_error_type:0,
+          m_message_log:"", m_dbw_fb_timestamp:11890949, m_speed:55.,
+          m_path:28562, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 11274
+      grabMsec: 26961
+      eleftImage: { grabNumber:149, grabMsec:26957, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11294
+      grabMsec: 26982
+      leftImage: { grabNumber:113, grabMsec:26867, deviceSec:1573647321,
+          deviceUsec:845550 }
+   -
+      grabNumber: 11318
+      grabMsec: 27007
+      nearImage: { grabNumber:106, grabMsec:26887, deviceSec:1573647321,
+          deviceUsec:872237 }
+   -
+      grabNumber: 11321
+      grabMsec: 27010
+      centerImage: { grabNumber:114, grabMsec:26895,
+          deviceSec:1573647321, deviceUsec:874121 }
+      emlidLeft: { grabNumber:94, grabMsec:27006, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406129513333326e+01,
+          east:4.1235740638333333e+01, alt:1.4505500000000001e+02,
+          speed:1.5165822222222223e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7193702973926666e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:21.080+03:00" } }
+   -
+      grabNumber: 11358
+      grabMsec: 27050
+      eleftImage: { grabNumber:150, grabMsec:27045, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11386
+      grabMsec: 27079
+      dbwFbLoco: { grabNumber:126, grabMsec:27077, deviceSec:0,
+          deviceUsec:11891951, vehicleCanData:{ shootNumber:142,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11891951, m_speed:5.4500000000000000e+01,
+          m_path:28562, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 11396
+      grabMsec: 27090
+      leftImage: { grabNumber:114, grabMsec:26976, deviceSec:1573647321,
+          deviceUsec:955146 }
+   -
+      grabNumber: 11423
+      grabMsec: 27118
+      centerImage: { grabNumber:115, grabMsec:27006,
+          deviceSec:1573647321, deviceUsec:983740 }
+   -
+      grabNumber: 11427
+      grabMsec: 27123
+      nearImage: { grabNumber:107, grabMsec:27003, deviceSec:1573647321,
+          deviceUsec:987608 }
+   -
+      grabNumber: 11434
+      grabMsec: 27130
+      eleftImage: { grabNumber:151, grabMsec:27126, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11499
+      grabMsec: 27199
+      leftImage: { grabNumber:115, grabMsec:27086, deviceSec:1573647322,
+          deviceUsec:64760 }
+   -
+      grabNumber: 11505
+      grabMsec: 27205
+      emlidLeft: { grabNumber:95, grabMsec:27202, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406141871666662e+01,
+          east:4.1235787204999994e+01, alt:1.4506700000000001e+02,
+          speed:1.5294433333333334e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6705010783368262e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:22+03:00" } }
+   -
+      grabNumber: 11517
+      grabMsec: 27218
+      eleftImage: { grabNumber:152, grabMsec:27214, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11526
+      grabMsec: 27228
+      centerImage: { grabNumber:116, grabMsec:27115,
+          deviceSec:1573647322, deviceUsec:93354 }
+   -
+      grabNumber: 11528
+      grabMsec: 27230
+      dbwFbLoco: { grabNumber:127, grabMsec:27228, deviceSec:0,
+          deviceUsec:11891951, vehicleCanData:{ shootNumber:143,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11891951, m_speed:5.4500000000000000e+01,
+          m_path:28562, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 11535
+      grabMsec: 27237
+      nearImage: { grabNumber:108, grabMsec:27118, deviceSec:1573647322,
+          deviceUsec:102989 }
+   -
+      grabNumber: 11594
+      grabMsec: 27299
+      eleftImage: { grabNumber:153, grabMsec:27294, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11602
+      grabMsec: 27308
+      leftImage: { grabNumber:116, grabMsec:27195, deviceSec:1573647322,
+          deviceUsec:174376 }
+   -
+      grabNumber: 11631
+      grabMsec: 27339
+      centerImage: { grabNumber:117, grabMsec:27225,
+          deviceSec:1573647322, deviceUsec:202975 }
+   -
+      grabNumber: 11643
+      grabMsec: 27351
+      nearImage: { grabNumber:109, grabMsec:27233, deviceSec:1573647322,
+          deviceUsec:218342 }
+   -
+      grabNumber: 11669
+      grabMsec: 27379
+      dbwFbLoco: { grabNumber:128, grabMsec:27378, deviceSec:0,
+          deviceUsec:11891951, vehicleCanData:{ shootNumber:144,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11891951, m_speed:5.4500000000000000e+01,
+          m_path:28574, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 11672
+      grabMsec: 27382
+      eleftImage: { grabNumber:154, grabMsec:27379, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11704
+      grabMsec: 27416
+      emlidLeft: { grabNumber:96, grabMsec:27412, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406154158333329e+01,
+          east:4.1235833683333340e+01, alt:1.4508099999999999e+02,
+          speed:1.5176111111111110e+01, vf:0., vl:0., vu:0.,
+          yaw:4.6530477858168817e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:22.020+03:00" } }
+   -
+      grabNumber: 11707
+      grabMsec: 27419
+      leftImage: { grabNumber:117, grabMsec:27305, deviceSec:1573647322,
+          deviceUsec:283977 }
+   -
+      grabNumber: 11733
+      grabMsec: 27447
+      centerImage: { grabNumber:118, grabMsec:27334,
+          deviceSec:1573647322, deviceUsec:312574 }
+   -
+      grabNumber: 11752
+      grabMsec: 27467
+      eleftImage: { grabNumber:155, grabMsec:27461, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11755
+      grabMsec: 27470
+      nearImage: { grabNumber:110, grabMsec:27348, deviceSec:1573647322,
+          deviceUsec:333708 }
+   -
+      grabNumber: 11809
+      grabMsec: 27527
+      leftImage: { grabNumber:118, grabMsec:27415, deviceSec:1573647322,
+          deviceUsec:393593 }
+   -
+      grabNumber: 11811
+      grabMsec: 27529
+      dbwFbLoco: { grabNumber:129, grabMsec:27528, deviceSec:0,
+          deviceUsec:11891951, vehicleCanData:{ shootNumber:145,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11891951, m_speed:5.4500000000000000e+01,
+          m_path:28574, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 11824
+      grabMsec: 27550
+      eleftImage: { grabNumber:156, grabMsec:27545, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11830
+      grabMsec: 27556
+      centerImage: { grabNumber:119, grabMsec:27444,
+          deviceSec:1573647322, deviceUsec:422203 }
+   -
+      grabNumber: 11857
+      grabMsec: 27585
+      nearImage: { grabNumber:111, grabMsec:27466, deviceSec:1573647322,
+          deviceUsec:449079 }
+   -
+      grabNumber: 11889
+      grabMsec: 27619
+      emlidLeft: { grabNumber:97, grabMsec:27615, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406166585000001e+01,
+          east:4.1235880120000004e+01, alt:1.4509800000000001e+02,
+          speed:1.5253277777777777e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7507862239285648e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:22.040+03:00" } }
+   -
+      grabNumber: 11899
+      grabMsec: 27629
+      eleftImage: { grabNumber:157, grabMsec:27627, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 11906
+      grabMsec: 27637
+      leftImage: { grabNumber:119, grabMsec:27524, deviceSec:1573647322,
+          deviceUsec:503215 }
+   -
+      grabNumber: 11932
+      grabMsec: 27664
+      centerImage: { grabNumber:120, grabMsec:27553,
+          deviceSec:1573647322, deviceUsec:531821 }
+   -
+      grabNumber: 11942
+      grabMsec: 27680
+      dbwFbLoco: { grabNumber:130, grabMsec:27678, deviceSec:0,
+          deviceUsec:11891951, vehicleCanData:{ shootNumber:146,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11891951, m_speed:5.4500000000000000e+01,
+          m_path:28574, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 11961
+      grabMsec: 27700
+      nearImage: { grabNumber:112, grabMsec:27579, deviceSec:1573647322,
+          deviceUsec:564453 }
+   -
+      grabNumber: 11979
+      grabMsec: 27728
+      eleftImage: { grabNumber:158, grabMsec:27715, deviceSec:0,
+          deviceUsec:4 }
+   -
+      grabNumber: 12002
+      grabMsec: 27752
+      leftImage: { grabNumber:120, grabMsec:27634, deviceSec:1573647322,
+          deviceUsec:617729 }
+   -
+      grabNumber: 12025
+      grabMsec: 27776
+      centerImage: { grabNumber:121, grabMsec:27662,
+          deviceSec:1573647322, deviceUsec:641442 }
+   -
+      grabNumber: 12062
+      grabMsec: 27816
+      nearImage: { grabNumber:113, grabMsec:27694, deviceSec:1573647322,
+          deviceUsec:679828 }
+   -
+      grabNumber: 12063
+      grabMsec: 27825
+      eleftImage: { grabNumber:159, grabMsec:27817, deviceSec:0,
+          deviceUsec:4 }
+      emlidLeft: { grabNumber:98, grabMsec:27815, deviceSec:0,
+          deviceUsec:0, senseData:{ nord:5.8406178988333338e+01,
+          east:4.1235926468333339e+01, alt:1.4511900000000000e+02,
+          speed:1.5186400000000001e+01, vf:0., vl:0., vu:0.,
+          yaw:4.7263516144006434e-01, pitch:0., roll:0., af:0., al:0.,
+          au:0., wf:0., wl:0., wu:0., numsats:-1, profile:0, fixQuality:4,
+          timestamp:"2019-11-13T12:15:22.060+03:00" } }
+   -
+      grabNumber: 12067
+      grabMsec: 27829
+      dbwFbLoco: { grabNumber:131, grabMsec:27828, deviceSec:0,
+          deviceUsec:11891951, vehicleCanData:{ shootNumber:147,
+          detectionsCount:1, car_type:0, k_odometry:1.,
+          vehicleCanDetection0:{ steeringAngle:-90., steeringSpeed:0.,
+          rpm:0., wheelRightFront:0., wheelLeftFront:0.,
+          wheelRightRear:0., wheelLeftRear:0.,
+          speed:5.4500000000000000e+01, brake:0, kpp:0, light:0, wiper:0 } },
+          dbw_loco_feedback_data:{ m_error_type:0, m_message_log:"",
+          m_dbw_fb_timestamp:11891951, m_speed:5.4500000000000000e+01,
+          m_path:28574, m_course_reverser_pos:backward,
+          is_emergency_brake_fb:false,
+          m_brake_line_pressure:5.0999999999999996e+00,
+          m_traffic_light_signal:green, m_traction_state:false,
+          m_brake_valve_pos:0, m_loco_number:no, m_epk_coil_state:no },
+          dbw_loco_applied_control:{ is_emergency_brake:false,
+          is_warning:false } }
+   -
+      grabNumber: 12094
+      grabMsec: 27858
+      leftImage: { grabNumber:121, grabMsec:27749, deviceSec:1573647322,
+          deviceUsec:722442 }
