@@ -29,7 +29,7 @@ before_install:
 script:
 - mkdir release
 - cd release/
-- cmake .
+- cmake ..
 - cmake --build .
 - cmake --build . --target test
 - cmake --build . --target package
