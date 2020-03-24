@@ -1,3 +1,4 @@
+%YAML:1.0
 ---
 header: { captures: { capture1: {
     name: centerImage}, capture2: { name: leftImage} } }

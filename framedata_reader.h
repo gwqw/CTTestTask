@@ -6,11 +6,11 @@
 #include <iostream>
 
 struct Capture {
-    uint64_t t_first = 0;
-    uint64_t t_last = 0;
-    uint64_t counts = 0;
+    int t_first = 0;
+    int t_last = 0;
+    int counts = 0;
     [[nodiscard]] double calc_fps() const;
-    void update(uint64_t msec);
+    void update(int msec);
 };
 
 struct FpsRec {
@@ -24,17 +24,12 @@ std::ostream& operator<<(std::ostream& out, const FpsRec& fps_rec);
 void saveToCSV(const std::vector<FpsRec>& fpsRec, const std::string& filename);
 void saveToCSV(const std::vector<FpsRec>& fpsRec, std::ostream& out);
 
-namespace YamlPreprocessor{
-    void yamlPreprocessor(const std::string& filename);
-    std::string processLine(std::string& line);
-};
-
 class Episode {
 public:
-    void addDataFromFile(const std::string& filename, bool needToProcess = true);
+    void addDataFromFile(const std::string& filename);
 
-    std::vector<FpsRec> getFps() const;
-    double getFpsForName(const std::string& capture_name) const;
+    [[nodiscard]] std::vector<FpsRec> getFps() const;
+    std::size_t getReadedCapturesCount() const { return captures_.size();}
 private:
     std::unordered_map<std::string, Capture> captures_;
 };

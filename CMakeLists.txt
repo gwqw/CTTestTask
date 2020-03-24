@@ -14,19 +14,11 @@ if (WIN32)
     set(Boost_COMPILER mgw91)
 endif()
 find_package(Boost COMPONENTS unit_test_framework program_options filesystem REQUIRED)
-find_package(ZLIB REQUIRED)
-
-if (WIN32)
-    set(YAML_CPP_INCLUDE_DIR libraries/yaml-cpp/include/)
-    set(YAML_CPP_LIBRARIES ${CMAKE_SOURCE_DIR}/libraries/yaml-cpp/lib/libyaml-cpp.a)
-else()
-    find_package(yaml-cpp REQUIRED)
-endif()
+find_package(OpenCV REQUIRED)
 
 # source
 set(SOURCE
         framedata_reader.cpp framedata_reader.h
-        simple_decompress.cpp simple_decompress.h
         parse_command_options.cpp parse_command_options.h
         file_utils.cpp file_utils.h
         string_utils.cpp string_utils.h
@@ -66,7 +58,7 @@ set_target_properties(${EXE_NAME} ${TEST_NAME} PROPERTIES
 
 # add headers
 target_include_directories(${EXE_NAME}
-        PRIVATE ${Boost_INCLUDE_DIR} ${ZLIB_INCLUDE_DIR} ${YAML_CPP_INCLUDE_DIR}
+        PRIVATE ${Boost_INCLUDE_DIR} ${OpenCV_INCLUDE_DIR}
 )
 
 if (USE_TEST)
@@ -76,18 +68,18 @@ if (USE_TEST)
         )
     endif()
     target_include_directories(${TEST_NAME}
-            PRIVATE ${Boost_INCLUDE_DIR} ${ZLIB_INCLUDE_DIR} ${YAML_CPP_INCLUDE_DIR}
+            PRIVATE ${Boost_INCLUDE_DIR} ${OpenCV_INCLUDE_DIR}
     )
 endif()
 
 # target linking
 target_link_libraries(${EXE_NAME}
-    ${Boost_LIBRARIES} ${ZLIB_LIBRARIES} ${YAML_CPP_LIBRARIES}
+    ${Boost_LIBRARIES} ${OpenCV_LIBRARIES}
 )
 
 if (USE_TEST)
     target_link_libraries(${TEST_NAME}
-        ${Boost_LIBRARIES} ${ZLIB_LIBRARIES} ${YAML_CPP_LIBRARIES}
+        ${Boost_LIBRARIES} ${OpenCV_LIBRARIES}
     )
 endif()
 

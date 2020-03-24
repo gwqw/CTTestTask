@@ -4,7 +4,6 @@
 
 #include "parse_command_options.h"
 #include "framedata_reader.h"
-#include "simple_decompress.h"
 #include "file_utils.h"
 
 using namespace std;
@@ -22,10 +21,7 @@ int main(int argc, char* argv[]) {
 
         Episode episode;
         for (const auto& filename : file_list) {
-            Decompressor decompressor(filename);
-            if (decompressor.isDecompressed()) {
-                episode.addDataFromFile(decompressor.getFileName());
-            }
+            episode.addDataFromFile(filename);
         }
         auto res = episode.getFps();
         saveToCSV(res, ouputFname);
