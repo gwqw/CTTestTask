@@ -55,21 +55,21 @@ BOOST_AUTO_TEST_SUITE(fps_framesdata_test_suite)
     }
 
     BOOST_AUTO_TEST_CASE(test_get_filelist) {
-        const string test_path = "../tests/filelist_test";
+        const string test_path = "../tests/filelist_test/";
         {
             auto filelist = getFileList(test_path, -1, -1);
             BOOST_CHECK(filelist.size() == 10u);
             vector<string> expected {
-                test_path + getSlash() + "bui.004.001.info.yml.gz",
-                test_path + getSlash() + "bui.004.002.info.yml.gz",
-                test_path + getSlash() + "bui.004.003.info.yml.gz",
-                test_path + getSlash() + "bui.004.004.info.yml.gz",
-                test_path + getSlash() + "bui.004.005.info.yml.gz",
-                test_path + getSlash() + "bui.004.006.info.yml.gz",
-                test_path + getSlash() + "bui.004.007.info.yml.gz",
-                test_path + getSlash() + "bui.004.008.info.yml.gz",
-                test_path + getSlash() + "bui.004.009.info.yml.gz",
-                test_path + getSlash() + "bui.004.010.info.yml.gz",
+                test_path + "bui.004.001.info.yml.gz",
+                test_path + "bui.004.002.info.yml.gz",
+                test_path + "bui.004.003.info.yml.gz",
+                test_path + "bui.004.004.info.yml.gz",
+                test_path + "bui.004.005.info.yml.gz",
+                test_path + "bui.004.006.info.yml.gz",
+                test_path + "bui.004.007.info.yml.gz",
+                test_path + "bui.004.008.info.yml.gz",
+                test_path + "bui.004.009.info.yml.gz",
+                test_path + "bui.004.010.info.yml.gz",
             };
             BOOST_CHECK(filelist == expected);
         }

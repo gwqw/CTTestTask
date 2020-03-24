@@ -10,16 +10,17 @@ endif()
 set(USE_TEST ON)
 
 # boost dependensies
-if (WIN32)
-    set(Boost_COMPILER mgw91)
+if (USE_TEST)
+    if (WIN32)
+        set(Boost_COMPILER mgw91)
+    endif()
+    find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 endif()
-find_package(Boost COMPONENTS unit_test_framework program_options filesystem REQUIRED)
 find_package(OpenCV REQUIRED)
 
 # source
 set(SOURCE
         framedata_reader.cpp framedata_reader.h
-        parse_command_options.cpp parse_command_options.h
         file_utils.cpp file_utils.h
         string_utils.cpp string_utils.h
 )
@@ -58,7 +59,7 @@ set_target_properties(${EXE_NAME} ${TEST_NAME} PROPERTIES
 
 # add headers
 target_include_directories(${EXE_NAME}
-        PRIVATE ${Boost_INCLUDE_DIR} ${OpenCV_INCLUDE_DIR}
+        PRIVATE ${OpenCV_INCLUDE_DIR}
 )
 
 if (USE_TEST)
@@ -74,7 +75,7 @@ endif()
 
 # target linking
 target_link_libraries(${EXE_NAME}
-    ${Boost_LIBRARIES} ${OpenCV_LIBRARIES}
+    ${OpenCV_LIBRARIES}
 )
 
 if (USE_TEST)
