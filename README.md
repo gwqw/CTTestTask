@@ -16,9 +16,7 @@
 
 ## Dependency
 
-- `yaml-cpp`: standard c++ yaml-parser (`libyaml-cpp-dev`)
-- `boost`: for command options parsing and for filesystem (`libboost-all-dev`)
-- `zlib`: for .gz files extraction (`zlib1g-dev`)
+- `openCV` is used command options parsing, for yaml-files (in .gz) parsing and for searching files.
 
 
 

@@ -17,8 +17,7 @@ matrix:
           packages:
             - g++-8
             - libboost-all-dev
-            - libyaml-cpp-dev
-            - zlib1g-dev
+            - libopencv-dev
       env:
          - MATRIX_EVAL="CC=gcc-8 && CXX=g++-8"
 before_install:
