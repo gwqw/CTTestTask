@@ -12,6 +12,15 @@ std::size_t get_file_size(const std::string& filename);
 std::size_t findEol(std::istream& f, std::size_t start_pos);
 bool cmp_files(const std::string& lhs_fname, const std::string& rhs_fname,
         std::size_t block_size = 1024);
+inline char getSlash() {
+#ifndef __linux__
+    return '\\';
+#else
+    return '/';
+#endif
+}
+bool removeFile(const std::string& filename);
+void renameFile(const std::string& filename_from, const std::string& filename_to);
 
 // utils for episode files
 std::vector<std::string> getFileList(const std::string& input_path, int start_ep, int end_ep);

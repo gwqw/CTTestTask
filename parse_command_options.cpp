@@ -38,9 +38,11 @@ boost::optional<std::tuple<std::string, int, int, std::string>>
     inputDir = vm["dir"].as<string>();
     if (vm.count("start")) {
         start = vm["start"].as<int>();
+        if (start < -1) start = -1;
     }
     if (vm.count("end")) {
         finish = vm["end"].as<int>();
+        if (finish < -1) finish = -1;
     }
     if (vm.count("-o")) {
         output_filename = vm["-o"].as<string>();

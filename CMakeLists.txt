@@ -10,9 +10,18 @@ endif()
 set(USE_TEST ON)
 
 # boost dependensies
-find_package(ZLIB REQUIRED)
-find_package(yaml-cpp REQUIRED)
+if (WIN32)
+    set(Boost_COMPILER mgw91)
+endif()
 find_package(Boost COMPONENTS unit_test_framework program_options filesystem REQUIRED)
+find_package(ZLIB REQUIRED)
+
+if (WIN32)
+    set(YAML_CPP_INCLUDE_DIR libraries/yaml-cpp/include/)
+    set(YAML_CPP_LIBRARIES ${CMAKE_SOURCE_DIR}/libraries/yaml-cpp/lib/libyaml-cpp.a)
+else()
+    find_package(yaml-cpp REQUIRED)
+endif()
 
 # source
 set(SOURCE

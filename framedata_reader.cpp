@@ -6,6 +6,8 @@
 
 #include <yaml-cpp/yaml.h>
 
+#include "file_utils.h"
+
 using namespace std;
 
 void Capture::update(uint64_t msec) {
@@ -48,14 +50,15 @@ void saveToCSV(const std::vector<FpsRec>& fpsRec, std::ostream& out) {
 void YamlPreprocessor::yamlPreprocessor(const std::string &filename) {
     ifstream in(filename);
     string out_fname = filename + "_tmp";
-    ofstream out(filename + "_tmp");
+    ofstream out(out_fname);
     for (string line; getline(in, line); ) {
         if (line == "%YAML:1.0") continue;
         out << processLine(line) << '\n';
     }
     in.close();
-    remove(filename.c_str());
-    rename(out_fname.c_str(), filename.c_str());
+    out.close();
+    removeFile(filename);
+    renameFile(out_fname, filename);
 }
 
 std::string YamlPreprocessor::processLine(std::string& line) {

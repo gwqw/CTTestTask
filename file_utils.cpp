@@ -110,3 +110,11 @@ std::vector<std::string> getFileList(const std::string& input_path, int start_ep
     sort(res.begin(), res.end());
     return res;
 }
+
+bool removeFile(const std::string& filename) {
+    return fs::remove(filename);
+}
+
+void renameFile(const std::string& filename_from, const std::string& filename_to) {
+    fs::rename(filename_from, filename_to);
+}

@@ -7,6 +7,8 @@
 
 #include <zlib.h>
 
+#include "file_utils.h"
+
 using namespace std;
 
 bool Decompressor::decompress(const std::string& filename_in, const std::string& filename_out) {
@@ -47,8 +49,8 @@ Decompressor::Decompressor(const std::string& filename) {
 
 Decompressor::~Decompressor() {
     if (decompress_result_) {
-        int res = remove(yaml_filename_.c_str());
-        if (res != 0) {
+        bool res = removeFile(yaml_filename_);
+        if (!res) {
             cerr << "Cannot delete file " + yaml_filename_ << endl;
         }
     }
