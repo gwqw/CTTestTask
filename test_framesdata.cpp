@@ -4,7 +4,6 @@
 #include <string>
 #include <iostream>
 
-#include "simple_decompress.h"
 #include "framedata_reader.h"
 #include "file_utils.h"
 #include "string_utils.h"
@@ -13,32 +12,34 @@ using namespace std;
 
 BOOST_AUTO_TEST_SUITE(fps_framesdata_test_suite)
 
-	BOOST_AUTO_TEST_CASE(test_read_archive) {
+    BOOST_AUTO_TEST_CASE(test_parse_yaml1) {
         const string archive_path = "../tests/archive_test/";
         {
-            const string filename_in = archive_path + "bui.004.001.info.yml.gz";
-            const string filename_out = archive_path + "bui.004.001.info.yml";
-            Decompressor d(filename_in);
-            BOOST_CHECK(d.isDecompressed());
-            const string filename_expected = archive_path + "bui.004.001.info_orig.yml";
-            auto obtained_size = get_file_size(filename_out);
-            auto expected_size = get_file_size(filename_expected);
-            BOOST_CHECK(obtained_size == expected_size);
-            BOOST_CHECK(cmp_files(filename_out, filename_expected));
+            const string filename = archive_path + "bui.004.001.info.yml";
+            Episode ep;
+            ep.addDataFromFile(filename);
+            BOOST_CHECK(ep.getReadedCapturesCount() == 6u);
         }
         {
-            const string filename_in = archive_path + "bui.004.001.info_broken.yml.gz";
-            Decompressor d(filename_in);
-            BOOST_CHECK(!d.isDecompressed());
+            const string filename = archive_path + "bui.004.001.info.yml.gz";
+            Episode ep;
+            ep.addDataFromFile(filename);
+            BOOST_CHECK(ep.getReadedCapturesCount() == 6u);
+        }
+        {
+            const string filename = archive_path + "bui.004.001.info_broken.yml.gz";
+            Episode ep;
+            ep.addDataFromFile(filename);
+            BOOST_CHECK(ep.getReadedCapturesCount() == 0u);
         }
     }
 
-    BOOST_AUTO_TEST_CASE(test_parse_yaml) {
+    BOOST_AUTO_TEST_CASE(test_parse_yaml2) {
         const string archive_path = "../tests/archive_test/";
         {
             const string filename = archive_path + "fps_test.yml";
             Episode ep;
-            ep.addDataFromFile(filename, false);
+            ep.addDataFromFile(filename);
             auto res = ep.getFps();
             BOOST_CHECK(res.size() == 2u);
             for (const auto& r : res) {

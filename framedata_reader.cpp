@@ -4,13 +4,11 @@
 #include <fstream>
 #include <algorithm>
 
-#include <yaml-cpp/yaml.h>
-
-#include "file_utils.h"
+#include <opencv2/opencv.hpp>
 
 using namespace std;
 
-void Capture::update(uint64_t msec) {
+void Capture::update(int msec) {
     if (t_first == 0) {
         t_first = msec;
     }
@@ -47,70 +45,41 @@ void saveToCSV(const std::vector<FpsRec>& fpsRec, std::ostream& out) {
 }
 
 
-void YamlPreprocessor::yamlPreprocessor(const std::string &filename) {
-    ifstream in(filename);
-    string out_fname = filename + "_tmp";
-    ofstream out(out_fname);
-    for (string line; getline(in, line); ) {
-        if (line == "%YAML:1.0") continue;
-        out << processLine(line) << '\n';
-    }
-    in.close();
-    out.close();
-    removeFile(filename);
-    renameFile(out_fname, filename);
-}
-
-std::string YamlPreprocessor::processLine(std::string& line) {
-    std::size_t colon_count = count(line.begin(), line.end(), ':');
-    string res;
-    res.reserve(line.size() + colon_count);
-    for (size_t i = 0; i < line.size(); ++i) {
-        res.push_back(line[i]);
-        // add space after ':' if needed
-        if (line[i] == ':'
-            && i+1 != line.size()  && line[i+1] != ' ')
-        {
-            res.push_back(' ');
-        }
-    }
-    return res;
-}
-
-
-void Episode::addDataFromFile(const std::string &filename, bool needToProcess) {
+void Episode::addDataFromFile(const std::string &filename) {
     // preprocess file, because it is not valid yaml-file
     try {
-        if (needToProcess) {
-            YamlPreprocessor::yamlPreprocessor(filename);
-        }
+        cv::FileStorage yaml;
+        bool res = yaml.open(filename, cv::FileStorage::READ);
 
-        auto yaml = YAML::LoadFile(filename);
-        // treat header
-        auto header = yaml["header"];
-        auto captures = header["captures"];
-        for (const auto &capture : captures) {
-            const auto &cap_data = capture.second;
-            if (captures_.count(cap_data["name"].as<string>()) == 0) {
-                captures_[cap_data["name"].as<string>()] = Capture{};
+        if (res) {
+            // treat header
+            auto header = yaml["header"];
+            auto captures = header["captures"];
+            for (const auto &capture : captures) {
+                string name = static_cast<string>(capture["name"]);
+                if (captures_.count(name) == 0) {
+                    captures_[name] = Capture{};
+                }
             }
-        }
 
-        // treat captures body (shots)
-        auto shots = yaml["shots"];
-        for (const auto &shot : shots) {
-            for (const auto &capture : shot) {
-                auto cap_name = capture.first.as<string>();
-                const auto &cap_data = capture.second;
-                if (cap_name != "grabNumber" && cap_name != "grabMsec") {
-                    if (auto it = captures_.find(cap_name); it != captures_.end()) {
-                        it->second.update(cap_data["grabMsec"].as<uint64_t>());
-                    } else {
-                        cerr << "Unknown capture name: " << cap_name << endl;
+            // treat captures body (shots)
+            auto shots = yaml["shots"];
+            for (const auto &shot : shots) {
+                for (const auto &capture : shot) {
+                    auto cap_name = capture.name();
+                    if (cap_name != "grabNumber" && cap_name != "grabMsec") {
+                        if (auto it = captures_.find(cap_name); it != captures_.end()) {
+                            it->second.update(static_cast<int>(capture["grabMsec"]));
+                        } else {
+                            cerr << "Unknown capture name: " << cap_name << endl;
+                        }
                     }
                 }
             }
+        } else {
+            cerr << "Cannot parse yaml-filename: " << filename << endl;
         }
+
     } catch (const exception& e) {
         cerr << "Cannot parse yaml-filename: " << filename << '\n'
              << e.what() << endl;
@@ -126,6 +95,4 @@ std::vector<FpsRec> Episode::getFps() const{
     return res;
 }
 
-double Episode::getFpsForName(const std::string &capture_name) const {
-    return captures_.at(capture_name).calc_fps();
-}
+
