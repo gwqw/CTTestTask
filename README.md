@@ -1,4 +1,5 @@
-# README
+# READ ME [![Build Status](https://travis-ci.org/gwqw/CTTestTask.svg?branch=master)](https://travis-ci.org/github/gwqw/CTTestTask)
+
 
 `fps_framesdata` -- console application for parsing episode logs (yaml-files compressed to .gz) and average fps calculation for every caption.
 
