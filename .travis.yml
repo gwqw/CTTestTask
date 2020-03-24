@@ -27,6 +27,8 @@ before_install:
 
 # run
 script:
+- mkdir release
+- cd release/
 - cmake .
 - cmake --build .
 - cmake --build . --target test
