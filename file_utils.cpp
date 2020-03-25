@@ -14,8 +14,8 @@ bool isCorrectFileName(const std::string& filename, int start_ep, int end_ep) {
     try {
         int ep_num = stoi(words[2]);
         bool res = true;
-        res = res && (start_ep < 0 || (start_ep >= 0 && ep_num >= start_ep));
-        res = res && (end_ep < 0 || (end_ep >= 0 && ep_num <= end_ep));
+        res = res && (start_ep < 0 || ep_num >= start_ep);
+        res = res && (end_ep < 0 || ep_num <= end_ep);
         return res;
     } catch (const exception& e) {
         return true;

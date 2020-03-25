@@ -1,6 +1,5 @@
 # READ ME [![Build Status](https://travis-ci.org/gwqw/CTTestTask.svg?branch=master)](https://travis-ci.org/github/gwqw/CTTestTask)
 
-
 `fps_framesdata` -- console application for parsing episode logs (yaml-files compressed to .gz) and average fps calculation for every caption.
 
 ## Command line
@@ -12,6 +11,8 @@
 -o <output_filename> output filename (csv-table). Empty means output to console
 -h, --help	this screen
 ```
+
+**Example**: `fps_framesdata -d=../data/ -s=1 -e=2 -o=output.csv`
 
 
 
